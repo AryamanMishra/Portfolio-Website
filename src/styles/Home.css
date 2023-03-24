@@ -1,0 +1,20 @@
+.myimage {
+    height: 15em;
+    width: 15em;
+    border: 1px solid transparent;
+    background-color: rgb(212, 230, 245);
+    border-radius: 50%;
+    margin-left: 5em;
+}
+.center-home {
+    background-color:azure;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    gap: 15em;
+    margin:8em 5em;
+}
+.center-home-content {
+    margin-top: 5em;
+    width: 40em;
+}
