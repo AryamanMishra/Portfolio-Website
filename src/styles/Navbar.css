@@ -1,3 +1,4 @@
+
 .main-nav {
     background-color: aliceblue;
     display: flex;
@@ -10,4 +11,9 @@
     flex-direction: row;
     gap: 9em;
     padding-right: 10em;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
 }
