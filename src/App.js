@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './components/About';
 import Contact from './components/Contact';
-import Projects from './components/Projects'
+import Projects from './components/Projects/Projects'
 
 const App = ()=> {
 	return (
