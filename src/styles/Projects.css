@@ -39,7 +39,7 @@
 .project-tags {
 	display: flex;
 	flex-direction: column;
-	gap: 0.5em;
+	gap: 0.75em;
 }
 .single-tag {
 	text-align: center;
@@ -49,13 +49,10 @@
 	letter-spacing: 1.5px;
 	cursor: pointer;
 	height: 2.5rem;
-	width: 200px;
+	padding: 0.25em 1em;
 }
 
-.single-tag:hover {
-	color: rgb(84, 147, 209);
-	transition: all 0.3s ease-out;
-}
+
 
 
 .personal-projects-center {
@@ -68,3 +65,19 @@
 .project-card {
 	padding: 0.5em;
 }
+
+.tag-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.single-tag:hover {
+	color: white;
+	transition: all 0.2s linear;
+	background-color: rgb(84, 147, 209);;
+	border: 0.5px transparent rgba(128, 128, 128, 0.1);
+	border-radius: 50px;
+}
+

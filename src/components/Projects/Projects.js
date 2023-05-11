@@ -3,11 +3,14 @@ import '../../styles/Projects.css'
 import personal_projects  from '../../data/projects'
 import ProjectCard from './ProjectCard'
 import projectTags from '../../data/projectTags'
+import {FcRight} from 'react-icons/fc'
 
 
 const Projects = ()=> {
     
     const [projectList,setProjectList] = useState(personal_projects)
+
+   
 
     const filterList = (tag)=> {
         if (tag === 'react') {
@@ -40,10 +43,20 @@ const Projects = ()=> {
                     <div className='project-tags'>
                         {
                             projectTags.map((tagObj,idx)=> {
-                                return <button className='single-tag' 
-                                        key={idx} onClick={()=>filterList(tagObj.tag)}>
-                                        {tagObj.name}
-                                    </button>
+                                return (
+                                    <div 
+                                        className='tag-wrapper'
+                                        onClick={()=>filterList(tagObj.tag)}
+                                    >
+                                        <button className='single-tag' 
+                                            key={idx}
+                                        >
+                                            {tagObj.name}
+                                        </button>
+                                         {/* <FcRight id='rightArrow'/> */}
+                                        
+                                    </div>
+                                )
                             })
                         }
                     </div>
