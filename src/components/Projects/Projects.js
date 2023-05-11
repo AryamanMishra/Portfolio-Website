@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import '../../styles/Projects.css'
 import personal_projects  from '../../data/projects'
 import ProjectCard from './ProjectCard'
-import Footer from '../Footer'
 import projectTags from '../../data/projectTags'
 
 
@@ -63,7 +62,6 @@ const Projects = ()=> {
                     </div>
 				</div>
             </div>
-            <Footer />
         </div>
     )
 }
