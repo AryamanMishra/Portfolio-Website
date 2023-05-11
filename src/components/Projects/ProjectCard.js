@@ -15,6 +15,7 @@ const ProjectCard = ({ project })=> {
                 </div>
                 <div className="project-card-back">
                     <p>{desc}</p>
+                    
                     <div className='project-links'>
                         <a href={githubLink} target='_blank' rel="noreferrer">
                             <AiFillGithub color='black' size={25}/>
