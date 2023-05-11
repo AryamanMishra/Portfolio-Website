@@ -30,10 +30,10 @@
 .personal-projects-container {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	margin-left: 10em;
-	gap: 15em;
-	margin-top: 6em;	
+	align-items: flex-start;
+	margin-left: 8em;
+	gap: 10em;
+	margin-top: 8em;
 }
 
 .project-tags {
@@ -48,23 +48,23 @@
 	font-size: 1.25em;
 	letter-spacing: 1.5px;
 	cursor: pointer;
-	height: 2.5rem;
-	padding: 0.25em 1em;
+	padding: 0.25em 0.25em;
+	height: 2em;
+	width: 200px;
+	border:0.5px solid rgba(8, 110, 188, 0.594);
+	border-radius: 20px;
 }
-
 
 
 
 .personal-projects-center {
 	display: grid;
 	column-gap: 50px;
-	row-gap: 30px;
+	row-gap: 70px;
 	grid-template-columns: auto auto auto;
+	
 }
 
-.project-card {
-	padding: 0.5em;
-}
 
 .tag-wrapper {
 	display: flex;
@@ -76,8 +76,76 @@
 .single-tag:hover {
 	color: white;
 	transition: all 0.2s linear;
-	background-color: rgb(84, 147, 209);;
+	background-color: rgb(84, 147, 209);
 	border: 0.5px transparent rgba(128, 128, 128, 0.1);
 	border-radius: 50px;
 }
 
+.project-card {
+	background-color: transparent;
+	width: 220px;
+	height: 220px;
+	border: 1px solid rgba(84, 147, 209, 0.206);
+	perspective: 1000px; 
+	border-radius: 50px;
+}
+
+.project-card p {
+	text-align: center;
+}
+
+.projectImg {
+	object-fit: contain;
+	width: 100%;
+	border-radius: 50px;
+}
+
+.project-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.project-card:hover .project-card-inner {
+	transform: rotateY(180deg);
+	-webkit-backface-visibility: hidden; 
+	backface-visibility:hidden
+}
+
+.project-card-front, .project-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; 
+	backface-visibility:hidden
+}
+
+.project-card-front {
+  	color: black;
+}
+
+.project-card-back {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: black;
+	transform: rotateY(180deg);
+}
+.project-card-back p {
+	font-size: 1em;
+	padding: 0.75em;
+	text-align: center;
+}
+
+.project-links {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.project-links a {
+    font-size: 1.5em;
+}

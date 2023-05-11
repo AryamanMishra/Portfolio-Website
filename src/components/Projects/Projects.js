@@ -47,9 +47,10 @@ const Projects = ()=> {
                                     <div 
                                         className='tag-wrapper'
                                         onClick={()=>filterList(tagObj.tag)}
+                                        key={idx}
                                     >
                                         <button className='single-tag' 
-                                            key={idx}
+                                            
                                         >
                                             {tagObj.name}
                                         </button>
