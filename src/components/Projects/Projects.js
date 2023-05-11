@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import '../../styles/Projects.css'
 import personal_projects  from '../../data/projects'
 import ProjectCard from './ProjectCard'
+import Footer from '../Footer'
+import projectTags from '../../data/projectTags'
 
 
 const Projects = ()=> {
@@ -32,14 +34,21 @@ const Projects = ()=> {
                 <h1>Personal Projects</h1>
                 <div className='underline'></div>
 			</div>
+            
+            
             <div className="center-projects">
                 <div className='personal-projects-container'>
                     <div className='project-tags'>
-                        <button onClick={()=>filterList('all')}>    All </button>    
-                        <button onClick={()=>filterList('react')}> React </button>
-                        <button onClick={()=>filterList('rn')}> React Native</button>
-                        <button onClick={()=>filterList('node')}> Node</button>
+                        {
+                            projectTags.map((tagObj,idx)=> {
+                                return <button className='single-tag' 
+                                        key={idx} onClick={()=>filterList(tagObj.tag)}>
+                                        {tagObj.name}
+                                    </button>
+                            })
+                        }
                     </div>
+                    
                     <div className='personal-projects-center'>
                         {
                             projectList.map((project,idx)=> {
@@ -54,6 +63,7 @@ const Projects = ()=> {
                     </div>
 				</div>
             </div>
+            <Footer />
         </div>
     )
 }

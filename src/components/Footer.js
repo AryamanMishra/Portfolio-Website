@@ -16,7 +16,7 @@ const Footer = ()=> {
                     <AiFillLinkedin />
                 </a>
             </div>
-            <p>Made with <AiFillHeart color='red' size={15}/> in React</p>
+            <h4>Made with <AiFillHeart color='red' size={15}/> in React</h4>
         </footer>
     )
 }

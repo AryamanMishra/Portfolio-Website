@@ -1,3 +1,10 @@
+.main-projects {
+	position: relative;
+	height: auto;
+	min-height: 100vh;
+}
+
+
 .title {
 	display: flex;
     align-items: center;
@@ -20,14 +27,21 @@
 	background-color: rgb(84, 147, 209);
 }
 
+.personal-projects-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 10em;
+	gap: 15em;
+	margin-top: 6em;	
+}
+
 .project-tags {
-	max-width: 5em;
-	max-height: 15em;
 	display: flex;
 	flex-direction: column;
 	gap: 0.5em;
 }
-.project-tags button {
+.single-tag {
 	text-align: center;
 	border: none;
 	background-color: transparent;
@@ -37,17 +51,20 @@
 	height: 2.5rem;
 	width: 200px;
 }
-.personal-projects-container {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	gap: 10em;
-	margin-top: 4em;	
+
+.single-tag:hover {
+	color: rgb(84, 147, 209);
+	transition: all 0.3s ease-out;
 }
 
+
 .personal-projects-center {
-	border: 1px solid black;
-	width: 10em;
-	height: 10em;
+	display: grid;
+	column-gap: 50px;
+	row-gap: 30px;
+	grid-template-columns: auto auto auto;
+}
+
+.project-card {
+	padding: 0.5em;
 }
