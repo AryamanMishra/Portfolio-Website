@@ -19,3 +19,35 @@
 	width: 21rem;
 	background-color: rgb(84, 147, 209);
 }
+
+.project-tags {
+	max-width: 5em;
+	max-height: 15em;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+.project-tags button {
+	text-align: center;
+	border: none;
+	background-color: transparent;
+	font-size: 1.25em;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+	height: 2.5rem;
+	width: 200px;
+}
+.personal-projects-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10em;
+	margin-top: 4em;	
+}
+
+.personal-projects-center {
+	border: 1px solid black;
+	width: 10em;
+	height: 10em;
+}
