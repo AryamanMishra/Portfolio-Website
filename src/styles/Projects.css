@@ -52,7 +52,7 @@
 	height: 2em;
 	width: 200px;
 	border:0.5px solid rgba(8, 110, 188, 0.594);
-	border-radius: 20px;
+	border-radius: 50px;
 }
 
 
@@ -66,19 +66,12 @@
 }
 
 
-.tag-wrapper {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
 
 .single-tag:hover {
 	color: white;
 	transition: all 0.2s linear;
 	background-color: rgb(84, 147, 209);
 	border: 0.5px transparent rgba(128, 128, 128, 0.1);
-	border-radius: 50px;
 }
 
 .project-card {
@@ -145,4 +138,12 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
+}
+
+
+.active-tag {
+	color: white;
+	transition: all 0.2s linear;
+	background-color: rgb(84, 147, 209);
+	border: 0.5px transparent rgba(128, 128, 128, 0.1);
 }
