@@ -1,32 +1,39 @@
 import QRicon from '../images/projectImages/QRicon.png'
+import HOLicon from '../images/projectImages/HOL.png'
+import WBTUIRNicnon from '../images/projectImages/WBTUIRN.png'
+import TODOListIcon from '../images/projectImages/TODOListIcon.png'
+import HeroImage512 from '../images/projectImages/HeroImage512.jpg'
+import BRPIcon from '../images/projectImages/BRPIcon.png'
+import BAIcon from '../images/projectImages/BAIcon.png'
+
 
 const personal_projects = [
     {
         "id":"1",
         "name":"Higher Lower GTAO",
-        "desc":"Hii",
+        "desc":"A basic Higher or Lower game for GTA Online assets and data using React",
         "tag": "react",
-        "img":'',
-        'githubLink':"",
-        'deployedLink':""
+        "img":HOLicon,
+        'githubLink':"https://github.com/AryamanMishra/HigherLower_GTAOnline",
+        'deployedLink':"https://higherorlower-gtaonline09.netlify.app/"
     },
     {
         "id":"2",
         "name":"Portfolio Website",
-        "desc":"Hii",
+        "desc":"This Website..",
         "tag": "react",
-        "img":'',
-        'githubLink':"",
+        "img":HeroImage512,
+        'githubLink':"https://github.com/AryamanMishra/Portfolio-Website",
         'deployedLink':""
     },
     {
         "id":"3",
         "name":"Basic React Projects",
-        "desc":"Hii",
+        "desc":"A react website containing basic react mini projects all together",
         "tag": "react",
-        "img":'',
-        'githubLink':"",
-        'deployedLink':""
+        "img":BRPIcon,
+        'githubLink':"https://github.com/AryamanMishra/Basic-React-Projects",
+        'deployedLink':"https://basic-react-projects09.netlify.app/"
     },
     {
         "id":"4",
@@ -40,29 +47,29 @@ const personal_projects = [
     {
         "id":"5",
         "name":"WhatsApp-Bottom-Tab-UI-RN",
-        "desc":"Hii",
+        "desc":"A Whatsapp like UI only app with a different view, having bottom tabs as navigators instead of top navigators, made using React Native.",
         "tag": "rn",
-        "img":'',
-        'githubLink':"",
-        'deployedLink':""
+        "img":WBTUIRNicnon,
+        'githubLink':"https://github.com/AryamanMishra/WhatsApp-Bottom-Tab-UI-RN",
+        'deployedLink':"https://expo.dev/accounts/aryamanm/projects/notwhatsapp/builds/4c7b007f-39e8-4a53-b742-eefe38d475b1"
     },
     {
         "id":"6",
         "name":"To do List Application",
-        "desc":"Hii",
+        "desc":"A basic to-do list application for mobile devices made using React Native, hosted on expo cloud and built using EAS CLI. i",
         "tag": "rn",
-        "img":'',
-        'githubLink':"",
-        'deployedLink':""
+        "img":TODOListIcon,
+        'githubLink':"https://github.com/AryamanMishra/To-do-List-RN",
+        'deployedLink':"https://expo.dev/accounts/aryamanm09/projects/to-do-list/builds/ced37e34-340c-4959-8378-1dcaf6bcf17b"
     },
     {
         "id":"7",
         "name":"BlogApp",
-        "desc":"Hii",
+        "desc":"A basic blogging app focusing more on backend development including express servers and mongodb and NodeJS as backend framework.",
         "tag": "node",
-        "img":'',
-        'githubLink':"",
-        'deployedLink':""
+        "img":BAIcon,
+        'githubLink':"https://github.com/AryamanMishra/Blog-App",
+        'deployedLink':"https://blog-app-gkk1.onrender.com/"
     },
 ]
 

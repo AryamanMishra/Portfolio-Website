@@ -11,7 +11,7 @@ const ProjectCard = ({ project })=> {
             <div className='project-card-inner'>
                 <div className="project-card-front">
                     <img src={img} alt="img" className='projectImg'/>
-                    <p>{name}</p>
+                    <h2>{name}</h2>
                 </div>
                 <div className="project-card-back">
                     <p>{desc}</p>
