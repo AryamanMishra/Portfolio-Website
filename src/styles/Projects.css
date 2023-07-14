@@ -60,7 +60,7 @@
 .personal-projects-center {
 	display: grid;
 	column-gap: 60px;
-	row-gap: 110px;
+	row-gap: 180px;
 	grid-template-columns: auto auto auto;
 	
 }
@@ -91,7 +91,7 @@
 	object-fit: contain;
 	width: 100%;
 	height: 100%;
-	border-radius: 50px;
+	border-radius: 35px;
 }
 
 .project-card-inner {
@@ -104,15 +104,14 @@
 
 .project-card:hover .project-card-inner {
 	transform: rotateY(180deg);
-	-webkit-backface-visibility: hidden; 
-	backface-visibility:hidden;
 }
 
 .project-card-front, .project-card-back {
 	width: 100%;
 	height: 100%;
 	-webkit-backface-visibility: hidden; 
-	backface-visibility:hidden
+	backface-visibility:hidden;
+	z-index: 2;
 }
 
 .project-card-front {
@@ -120,8 +119,6 @@
 }
 
 .project-card-front h2{
-	/* background-color: rgba(84, 147, 209, 0.518);
-	color: black; */
 	font-size: 1.1em;
 	border-radius: 50px;
 	padding: 0.25em 0.25em;
@@ -134,13 +131,13 @@
 	justify-content: space-between;
 	color: black;
 	transform: rotateY(180deg);
+	z-index: 1;
 }
 
 .project-card-back p {
 	font-size: 1em;
 	padding: 1.25em;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .project-links {

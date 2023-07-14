@@ -47,6 +47,7 @@ const Projects = ()=> {
                                 projectTags.map((tagObj,idx)=> {
                                     return (
                                         <button 
+                                            key={idx}
                                             className={`single-tag ${idx === activeTagIndex && 'active-tag'}`}  
                                             onClick={()=>filterList(tagObj.tag,idx)} 
                                         

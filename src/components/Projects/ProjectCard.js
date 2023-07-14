@@ -11,11 +11,10 @@ const ProjectCard = ({ project })=> {
             <div className='project-card-inner'>
                 <div className="project-card-front">
                     <img src={img} alt="img" className='projectImg'/>
-                    <h2>{name}</h2>
+                    <h2>{name}</h2>   
                 </div>
                 <div className="project-card-back">
                     <p>{desc}</p>
-                    
                     <div className='project-links'>
                         <a href={githubLink} target='_blank' rel="noreferrer">
                             <AiFillGithub color='black' size={25}/>
