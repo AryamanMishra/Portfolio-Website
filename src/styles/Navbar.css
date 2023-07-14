@@ -1,6 +1,7 @@
 
 .main-nav {
     background-color: rgba(173, 216, 251, 0.15);
+    /* background-color: #10003b; */
     display: flex;
     flex-direction: row;
     justify-content:space-between;
