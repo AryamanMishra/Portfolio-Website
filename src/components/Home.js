@@ -3,6 +3,8 @@ import '../styles/Home.css'
 import heroImage from '../images/heroImage.png'
 import {BsDownload,BsLinkedin,BsGithub} from 'react-icons/bs'
 import {SiLeetcode,SiGeeksforgeeks} from 'react-icons/si'
+import Resume from '../data/Resume-Aryaman-Mishra.pdf'
+
 
 const Home = ()=> {
     return (
@@ -16,12 +18,22 @@ const Home = ()=> {
                         <p>Software Development Engineer</p>
                     </div>
                     <div className="resume-section">
-                        <button>
+                    
+                    <button className='resume-dl-button'>
+                        <a 
+                            href={Resume}
+                            download="Resume-Aryaman-Mishra"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <h3>RESUME</h3>
                             <BsDownload 
                                 size={20}
                             />
-                        </button>
+                        </a>
+                        
+                    </button>
+                        
                     </div>
                     <div className="main-page-links">
                         <a 

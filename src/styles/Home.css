@@ -35,19 +35,40 @@
 .resume-section {
     display: flex;
 }
-.resume-section button{
+.resume-dl-button {
     background-color: #f6f60b;
     padding: 0.65em 1.2em;
     margin-top: 1.75em;
     border: 0.4px transparent;
     font-size: 0.9em;
-    border-radius: 5%;
+    border-radius: 2%;
+    cursor: pointer;
+    
+}
+
+.resume-dl-button:hover {
+    background-color: black;
+    transition: 0.5s ease;
+}
+.resume-dl-button:hover a{
+    color: #f6f60b;
+    transition: 0.2s ease;
+}
+
+
+.resume-dl-button a {
     display: flex;
     gap: 1em;
-    cursor: pointer;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
+    text-decoration: none;  
+    color: black; 
+    letter-spacing: 1.5px;
 }
+
+
+
+
 
 .main-page-links {
     margin-top: 2.5em;
