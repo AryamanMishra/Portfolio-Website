@@ -10,7 +10,7 @@ const getLocalStorage = ()=> {
 		return JSON.parse(localStorage.getItem('screenIndex'))
 	}
 	else {
-		return 0
+		return -2
 	}
 }
 
@@ -20,7 +20,7 @@ const Navbar = ()=> {
 
 
     useEffect(()=> {
-        localStorage.setItem('screenIndex', JSON.stringify(screenIndex))
+        localStorage.setItem('screenIndex', screenIndex)
     },[screenIndex])
 
 

@@ -11,7 +11,7 @@ const Contact = ()=> {
 					<h2>Lets Connect</h2>
 					<AiFillStar 
 						size={32}
-						color='gold'
+						color='rgb(28, 121, 184)'
 						className='star-icon'
 					/>
 				</div>

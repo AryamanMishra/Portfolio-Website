@@ -3,21 +3,22 @@
 
 
 .contact-center {
-    background-color: rgba(124, 241, 241, 0.121);
+	background-color: rgba(150, 207, 229, 0.158);
 	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2.5em;
 	border-radius: 15px;
-	box-shadow: rgb(0, 0, 0) 1px 1px 3px 0px;
+	box-shadow: rgb(0, 0, 0) 1.5px 1.5px 1.5px 0px;
 }
 
 .contact-center h2 {
-	color: rgba(3, 3, 79, 0.655);;
+	color: rgba(3, 3, 58, 0.868);
+	/* color: white; */
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	letter-spacing: 1.4px;
-	font-size: 1.8em;
+	font-size: 2em;
 }
 
 
@@ -43,7 +44,7 @@
 }
 
 .star-icon:hover {
-	transform: rotateZ(72deg);
+	transform: rotateZ(72deg) scale(1.4);
 	transition: 0.35s ease-in-out;
 }
 
@@ -72,7 +73,7 @@
 .form-submit-button {
 	background-color: #fafa0e;
     padding: 0.65em 1.2em;
-    margin-top: 1.75em;
+    margin-top: 1.5em;
     border: 0.4px transparent;
     font-size: 0.9em;
     border-radius: 2%;
@@ -80,6 +81,9 @@
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.3em;
 	margin-bottom: 2em;
+	font-weight: 500;
+	text-transform:uppercase;
+	letter-spacing: 1px;
 }
 
 .form-submit-button:hover {
