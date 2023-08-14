@@ -8,7 +8,7 @@ import {AiFillLinkedin} from 'react-icons/ai'
 const Footer = ()=> {
     return (
         <footer className='main-footer'>
-            <div className='links'>
+            <div className='footer-links'>
                 <a href="https://github.com/AryamanMishra" target='_blank' rel="noreferrer">
                     <AiFillGithub />
                 </a>

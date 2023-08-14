@@ -4,10 +4,10 @@
 .main-section {
     display: flex;
     gap: 5em;
-    background-color: rgba(162, 249, 249, 0.212);
+    background-color: rgba(124, 241, 241, 0.212);
     align-items: center;
     justify-content: center;
-    padding-top: 3.5em;
+    padding-top: 4em;
 }
 
 .hero-img {
@@ -49,22 +49,25 @@
     letter-spacing: 1px;
 }
 
-.links {
+.main-page-links {
     margin-top: 2.5em;
     display: flex;
-    cursor: pointer;
-    gap: 5em;
+    gap: 1.5em;
     padding-top: 0.7em;
 }
 
-.link-icon {
-    padding: 0em 0.4em;
+.main-page-link-icon {
+    padding: 0em 0.3em;
+    cursor: pointer;
 }
 
 .la {
     color: rgb(47, 47, 198);
 }
 
+.gb {
+    color: black;
+}
 .leet {
     color: rgb(64, 64, 2);
 }

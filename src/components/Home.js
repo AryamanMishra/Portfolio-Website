@@ -23,23 +23,47 @@ const Home = ()=> {
                             />
                         </button>
                     </div>
-                    <div className="links">
-                        <BsLinkedin 
-                            size={32}
-                            className='link-icon la'  
-                        />
-                        <BsGithub 
-                            size={32}
-                            className='link-icon'
-                        />
-                        <SiLeetcode 
-                            size={32}
-                            className='link-icon leet'
-                        />
-                        <SiGeeksforgeeks 
-                            size={32}
-                            className='link-icon gfg'
-                        />
+                    <div className="main-page-links">
+                        <a 
+                            href="https://www.linkedin.com/in/aryaman-mishra-576527190/" 
+                            className='main-page-link-icon la'
+                            target='_blank'
+                        >
+                            <BsLinkedin 
+                                size={34}
+                            />
+                        </a>
+                        
+                        <a 
+                            href="https://github.com/AryamanMishra"
+                            className='main-page-link-icon gb'
+                            target='_blank'
+                        >
+                            <BsGithub 
+                                size={34}
+                            />
+                        </a>
+                        
+                        <a 
+                            href="https://leetcode.com/modest_aryaman09/"
+                            className='main-page-link-icon leet'
+                            target='_blank'
+                        >
+                            <SiLeetcode 
+                                size={34}  
+                            />
+                        </a>
+                        
+                        <a 
+                            href="https://auth.geeksforgeeks.org/user/modest_aryaman09/practice/"
+                            className='main-page-link-icon gfg'
+                            target='_blank'
+                        >
+                            <SiGeeksforgeeks 
+                                size={34} 
+                            />
+                        </a>
+                        
                     </div>
                 </div>
                 
