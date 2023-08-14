@@ -11,9 +11,9 @@ const Home = ()=> {
                 <img src={heroImage} className='hero-img' alt='Hero'/>
                 <div className='intro'>
                     <div className='title'>
-                        <div className="underline" style={{width:'7.5em',height:'0.22em',marginTop:'-7em',marginBottom:'1.5em'}}></div>
-                        <h1>Hey there.. I am Aryaman</h1>
-                        <p>Software Developer</p>
+                        <div className="underline" style={{width:'7.5em',height:'0.22em',marginTop:'-6em',marginBottom:'1.5em'}}></div>
+                        <h1 style={{fontSize:"2.45em"}}>Hey there.. I am Aryaman</h1>
+                        <p>Software Development Engineer</p>
                     </div>
                     <div className="resume-section">
                         <button>
@@ -25,20 +25,20 @@ const Home = ()=> {
                     </div>
                     <div className="links">
                         <BsLinkedin 
-                            size={30}
-                            className='link-icon'
+                            size={32}
+                            className='link-icon la'  
                         />
                         <BsGithub 
-                            size={30}
+                            size={32}
                             className='link-icon'
                         />
                         <SiLeetcode 
-                            size={30}
-                            className='link-icon'
+                            size={32}
+                            className='link-icon leet'
                         />
                         <SiGeeksforgeeks 
-                            size={30}
-                            className='link-icon'
+                            size={32}
+                            className='link-icon gfg'
                         />
                     </div>
                 </div>
