@@ -43,5 +43,5 @@
 
 .star-icon:hover {
 	transform: rotateZ(72deg);
-	transition: 0.5s ease-in-out;
+	transition: 0.35s ease-in-out;
 }
