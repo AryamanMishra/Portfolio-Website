@@ -10,7 +10,7 @@ const getLocalStorage = ()=> {
 		return JSON.parse(localStorage.getItem('screenIndex'))
 	}
 	else {
-		return -1
+		return 0
 	}
 }
 

@@ -1,21 +1,42 @@
-.heroImage {
-    height: 25em;
-    width: 25em;
-    border: 1px solid transparent;
-    background-color: rgb(212, 230, 245);
-    border-radius: 50%;
-    margin-left: 5em;
-    background-color:transparent;
-}
-.center-home {
-    background-color:azure;
+.main-section {
     display: flex;
-    flex-direction: row;
-    margin-top: 5em;
-    gap: 15em;
-    margin:8em 5em;
+    gap: 7em;
+    background-color: rgba(137, 244, 244, 0.11);
+    align-items: center;
+    justify-content: center;
 }
-.center-home-content {
-    margin-top: 5em;
-    width: 40em;
+.hero-img {
+    width: 36%;
+}
+.intro {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.resume-section {
+    display: flex;
+}
+.resume-section button{
+    background-color: #f6f60b;
+    padding: 0.5em 1em;
+    margin-top: 1.5em;
+    border: 0.4px transparent;
+    font-size: 1em;
+    border-radius: 5%;
+    display: flex;
+    gap: 1em;
+    cursor: pointer;
+}
+
+.links {
+    margin-top: 2em;
+    display: flex;
+    cursor: pointer;
+    gap: 2em;
+}
+.link-icon:hover {
+    color: #f6f60b;
+    transition: 0.45s ease;
 }
