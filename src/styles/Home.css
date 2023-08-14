@@ -3,10 +3,11 @@
 
 .main-section {
     display: flex;
-    gap: 6em;
-    background-color: rgba(137, 244, 244, 0.11);
+    gap: 5em;
+    background-color: rgba(137, 244, 244, 0.212);
     align-items: center;
     justify-content: center;
+    padding-top: 2.2em;
 }
 .hero-img {
     width: 36%;

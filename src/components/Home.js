@@ -4,7 +4,6 @@ import heroImage from '../images/heroImage.png'
 import {BsDownload,BsLinkedin,BsGithub} from 'react-icons/bs'
 import {SiLeetcode,SiGeeksforgeeks} from 'react-icons/si'
 
-
 const Home = ()=> {
     return (
         <div className='main-home'>
@@ -12,6 +11,7 @@ const Home = ()=> {
                 <img src={heroImage} className='hero-img' alt='Hero'/>
                 <div className='intro'>
                     <div className='title'>
+                        <div className="underline" style={{width:'7.5em',height:'0.22em',marginTop:'-6em',marginBottom:'1.5em'}}></div>
                         <h1>Hey there.. I am Aryaman</h1>
                         <p>Software Developer</p>
                     </div>
@@ -42,6 +42,7 @@ const Home = ()=> {
                         />
                     </div>
                 </div>
+                
             </div>
         </div>
     )

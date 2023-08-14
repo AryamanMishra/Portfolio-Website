@@ -8,7 +8,7 @@
     box-shadow: rgb(28, 121, 184) 0px -3px 8px 0px;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 1px;
-    font-size: 1.07em;
+    font-size: 1.05em;
 }
 
 .home-link {
@@ -46,6 +46,7 @@
     color: rgb(28, 121, 184);
     transform: scale(1.05);
     transition: all 0.3s ease;
+    
 }
 
 .nav-links::after {
