@@ -11,7 +11,7 @@ const Home = ()=> {
                 <img src={heroImage} className='hero-img' alt='Hero'/>
                 <div className='intro'>
                     <div className='title'>
-                        <div className="underline" style={{width:'7.5em',height:'0.22em',marginTop:'-6em',marginBottom:'1.5em'}}></div>
+                        <div className="underline" style={{width:'7.5em',height:'0.22em',marginTop:'-7em',marginBottom:'1.5em'}}></div>
                         <h1>Hey there.. I am Aryaman</h1>
                         <p>Software Developer</p>
                     </div>
@@ -25,19 +25,19 @@ const Home = ()=> {
                     </div>
                     <div className="links">
                         <BsLinkedin 
-                            size={28}
+                            size={30}
                             className='link-icon'
                         />
                         <BsGithub 
-                            size={28}
+                            size={30}
                             className='link-icon'
                         />
                         <SiLeetcode 
-                            size={28}
+                            size={30}
                             className='link-icon'
                         />
                         <SiGeeksforgeeks 
-                            size={28}
+                            size={30}
                             className='link-icon'
                         />
                     </div>

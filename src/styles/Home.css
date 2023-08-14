@@ -7,8 +7,9 @@
     background-color: rgba(137, 244, 244, 0.212);
     align-items: center;
     justify-content: center;
-    padding-top: 2.2em;
+    padding-top: 3.5em;
 }
+
 .hero-img {
     width: 36%;
 }
@@ -22,10 +23,11 @@
 
 .title h1 {
     font-family: 'Poppins', sans-serif;
+    font-size: 2.4em;
 }
 .title p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.15em;
+    font-size: 1.2em;
     color: rgb(2, 150, 150);
     /* font-style: italic; */
 }
@@ -54,5 +56,5 @@
 }
 .link-icon:hover {
     color: #f6f60b;
-    transition: 0.45s ease;
+    transition: 0.4s ease;
 }
