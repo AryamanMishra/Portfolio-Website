@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto&display=swap');
+
+
 .main-section {
     display: flex;
-    gap: 7em;
+    gap: 6em;
     background-color: rgba(137, 244, 244, 0.11);
     align-items: center;
     justify-content: center;
@@ -9,11 +12,21 @@
     width: 36%;
 }
 .intro {
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.title h1 {
+    font-family: 'Poppins', sans-serif;
+}
+.title p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15em;
+    color: rgb(2, 150, 150);
+    /* font-style: italic; */
 }
 .resume-section {
     display: flex;
@@ -23,11 +36,13 @@
     padding: 0.5em 1em;
     margin-top: 1.5em;
     border: 0.4px transparent;
-    font-size: 1em;
+    font-size: 0.9em;
     border-radius: 5%;
     display: flex;
     gap: 1em;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 .links {

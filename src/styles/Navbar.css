@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
 
 .main-nav {
-    background-color: rgba(173, 216, 251, 0.15);
-    /* background-color: #10003b; */
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    height: 4.1em;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 3px 5px 0px;
+    height: 4.2em;
+    box-shadow: rgb(28, 121, 184) 0px -3px 8px 0px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.07em;
 }
 
 .home-link {
-    padding-top: 0.8em;
+    padding-top: 0.5em;
     padding-bottom: 1em;
     text-decoration: none;
     color: black;
-    padding-left: 0.5em;
+    padding-left: 1em;
+    font-weight: 800;
+    font-size: 1.3em;
 }
 .home-link:hover {
     color: rgb(28, 121, 184);
@@ -23,8 +27,8 @@
     display: flex;
     flex-direction: row;
     gap: 7.5em;
-    padding-right: 6em;
-    padding-top: 0.8em;
+    padding-right: 2.5em;
+    padding-top: 1.1em;
     padding-bottom: 1em;
 }
 
@@ -40,8 +44,8 @@
 
 .nav-links:hover {
     color: rgb(28, 121, 184);
-    transform: scale(1.08);
-    transition: all 0.15s ease;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 
 .nav-links::after {
