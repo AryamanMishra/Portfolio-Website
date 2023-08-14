@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
 .main-projects {
 	position: relative;
 	height: auto;
 	min-height: 100vh;
+
 }
 
 
@@ -15,15 +20,15 @@
 }
 
 .title h1 {
-	font-family: 'Inter', sans-serif;
-	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
 	color: rgb(3, 3, 79);
-	font-size: 2.1rem;
+	font-size: 2.2rem;
 }
 
 .underline {
 	height: 0.25rem;
-	width: 21rem;
+	width: 25rem;
 	background-color: rgb(84, 147, 209);
 }
 
@@ -41,15 +46,20 @@
 	flex-direction: column;
 	gap: 0.75em;
 }
+
+.project-tags h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+}
 .single-tag {
 	text-align: center;
-	border: none;
 	background-color: transparent;
-	font-size: 1.25em;
+	font-size: 1.15em;
 	letter-spacing: 1.5px;
 	cursor: pointer;
-	padding: 0.25em 0.25em;
-	height: 2em;
+	padding: 0.5em 0.5em;
+	height: 2.7em;
 	width: 200px;
 	border:0.5px solid rgba(8, 110, 188, 0.594);
 	border-radius: 50px;
@@ -85,6 +95,7 @@
 
 .project-card p {
 	text-align: center;
+	font-family: 'Poppins', sans-serif;
 }
 
 .projectImg {
@@ -119,10 +130,11 @@
 }
 
 .project-card-front h2{
-	font-size: 1.1em;
-	border-radius: 50px;
+	font-size: 1.2em;
 	padding: 0.25em 0.25em;
 	margin-top: 0.5em;
+	font-family: 'Jost', sans-serif;
+	letter-spacing: 1px;
 }
 
 .project-card-back {

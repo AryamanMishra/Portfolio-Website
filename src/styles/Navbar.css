@@ -17,15 +17,16 @@
     padding-bottom: 1em;
     text-decoration: none;
     color: white;
-    padding-left: 1em;
+    padding-left: 1.25em;
     padding-right: 1em;
     font-weight: 800;
     font-size: 1.3em;
     border-radius: 5%;
 }
-/* .home-link:hover {
-    
-} */
+.home-link:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
 .routes {
     display: flex;
     flex-direction: row;

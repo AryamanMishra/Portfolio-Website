@@ -52,7 +52,8 @@ const Projects = ()=> {
                                             onClick={()=>filterList(tagObj.tag,idx)} 
                                         
                                         >
-                                            {tagObj.name}
+                                            
+                                            <h3>{tagObj.name}</h3>
                                         </button>
                                     )
                                 })
