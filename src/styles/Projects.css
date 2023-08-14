@@ -130,11 +130,12 @@
 }
 
 .project-card-front h2{
-	font-size: 1.2em;
+	font-size: 1.1em;
 	padding: 0.25em 0.25em;
 	margin-top: 0.5em;
 	font-family: 'Jost', sans-serif;
 	letter-spacing: 1px;
+	color: rgb(7, 77, 123);
 }
 
 .project-card-back {

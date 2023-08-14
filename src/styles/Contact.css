@@ -1,44 +1,47 @@
-.contact-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5em;
-    border: 1px solid grey;
-  }
-  
-  .contact-form {
-    width: 400px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  input[type='text'],
-  input[type='email'],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button[type='submit'] {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button[type='submit']:hover {
-    background-color: #555;
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto&display=swap');
+
+
+.contact-center {
+    background-color: rgba(124, 241, 241, 0.121);
+	width: 700px;
+    height: 455px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2.5em;
+	border-radius: 5%;
+}
+
+.contact-center h2 {
+	color: rgba(3, 3, 79, 0.655);;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	letter-spacing: 1.4px;
+	font-size: 1.8em;
+}
+
+
+.contact-center-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	padding-top: 0.85em;
+	padding-left: 1.75em;
+}
+.form-inputs {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5em;
+}
+
+.star-icon {
+	cursor: pointer;
+}
+
+.star-icon:hover {
+	transform: rotateZ(72deg);
+	transition: 0.5s ease-in-out;
+}

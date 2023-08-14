@@ -24,7 +24,7 @@
     border-radius: 5%;
 }
 .home-link:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
     transition: all 0.3s ease;
 }
 .routes {
@@ -39,6 +39,7 @@
 .nav-links {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 .nav-links h1 {
     font-size: 1.45em;
