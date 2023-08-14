@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
 
 
 .contact-center {
     background-color: rgba(124, 241, 241, 0.121);
-	width: 700px;
-    height: 455px;
+	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2.5em;
-	border-radius: 5%;
+	border-radius: 15px;
+	box-shadow: rgb(0, 0, 0) 1px 1px 3px 0px;
 }
 
 .contact-center h2 {
@@ -44,4 +45,45 @@
 .star-icon:hover {
 	transform: rotateZ(72deg);
 	transition: 0.35s ease-in-out;
+}
+
+.form-input {
+	width: 400px;
+	border: 0.2px solid grey;
+	height: 2em;
+	border-radius: 10px;
+	padding: 0.5em 0.75em;
+	font-family: 'Ruda', sans-serif;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+.form-textarea {
+	width: 400px;
+	border: 0.5px solid grey;
+	height: 120px;
+	border-radius: 10px;
+	padding: 0.5em 0.75em;
+	font-family: 'Ruda', sans-serif;
+	font-size: 1.1em;
+	resize: none;
+}
+
+.form-submit-button {
+	background-color: #fafa0e;
+    padding: 0.65em 1.2em;
+    margin-top: 1.75em;
+    border: 0.4px transparent;
+    font-size: 0.9em;
+    border-radius: 2%;
+    cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.3em;
+	margin-bottom: 2em;
+}
+
+.form-submit-button:hover {
+    background-color: black;
+    transition: 0.5s ease;
+	color: #fafa0e;
 }
