@@ -31,20 +31,7 @@ const Experience = ()=> {
                 <div className='underline' style={{width:'11em'}}></div>
             </div>
             <div className="center-experience">
-                <div className="company-names">
-                   {
-                    company_details.map((companyObj,idx) => {
-                        return (
-                            <button 
-                                key={idx}
-                               
-                            >
-                                {companyObj.companyName}
-                            </button>
-                        )
-                    })
-                   }
-                </div>
+                
             </div>
         </div>
     )

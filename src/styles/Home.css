@@ -108,6 +108,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .experience-title {
@@ -118,8 +119,12 @@
     text-align: center;
 }
 
-.company-names {
+.center-experience {
+    width: 100%;
+    margin-top: 8em;
     display: flex;
-	flex-direction: column;
-	gap: 0.75em;
+    justify-content: flex-start;
+    gap: 12em;
+
 }
+
