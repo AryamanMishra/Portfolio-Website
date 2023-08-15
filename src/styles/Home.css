@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .main-section {
     display: flex;
@@ -120,11 +120,81 @@
 }
 
 .center-experience {
-    width: 100%;
-    margin-top: 8em;
+    margin-top: 6em;
     display: flex;
     justify-content: flex-start;
-    gap: 12em;
-
+    align-items: center;
+    gap: 3em;
+    flex-direction: column;
 }
 
+.single-experience {
+    background-color: #d4fffb67;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 2.5em 2em;
+    box-shadow: 0 7px 29px 0 hsla(240,5%,41%,.2);
+    width: 1085px;
+    height: 270px;
+}
+
+.single-experience h2{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+}
+
+.exp-title-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.exp-title-div h4 {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    margin: 1em 0.2em;
+    padding: 0.25em 1em;
+    color: rgb(1, 123, 123);
+    background-color: rgba(128, 128, 128, 0.135);
+    font-size: 1.05em;
+    border-radius: 15px;
+}
+
+.single-experience p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 91, 91);
+    font-size: 1.15em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    padding: 0.65em 0em;
+}
+
+.exp-button-section {  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    margin-bottom: 2.5em;
+}
+
+.exp-button-section button {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    padding: 8px 9px;
+}
+
+
+.exp-button-section button:active {
+    background-color: #98ccf7;
+    transition: background 0s;
+    border-radius: 50%;
+}
+
+.desc-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2em;
+}
