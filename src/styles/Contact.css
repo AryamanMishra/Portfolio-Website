@@ -44,8 +44,8 @@
 }
 
 .star-icon:hover {
-	transform: rotateZ(72deg) scale(1.4);
-	transition: 0.35s ease-in-out;
+	transform: rotateZ(144deg) scale(1.4);
+	transition: 0.4s ease-in-out;
 }
 
 .form-input {

@@ -7,7 +7,7 @@
     background-color: rgba(124, 241, 241, 0.158);
     align-items: center;
     justify-content: center;
-    padding-top: 5em;
+    padding-top: 6em;
 }
 
 .hero-img {
@@ -25,12 +25,13 @@
     font-family: 'Poppins', sans-serif;
 }
 .title p {
-    font-family: 'Poppins', sans-serif;
     font-size: 1.2em;
     color: rgb(1, 123, 123);
     margin-top: 0.1em;
     margin-bottom: 0.5em;
     /* font-style: italic; */
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.2px;
 }
 .resume-section {
     display: flex;
@@ -99,4 +100,26 @@
 }
 .gfg  {
     color: green;
+}
+
+
+.main-experience-section {
+    margin-top: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    color: rgb(3, 3, 79);
+    text-align: center;
+}
+
+.company-names {
+    display: flex;
+	flex-direction: column;
+	gap: 0.75em;
 }
