@@ -2,6 +2,7 @@ const experience_details = [
     {
         "id":1,
         "companyName" : "Quantiphi Analytics",
+        "certLink" : "https://drive.google.com/file/d/14E_YZmwoMqA1Hx6BghtIKHWzW8V5aqad/view?usp=sharing",
         "title" : "Data Engineering Intern",
         "tenor": "March 2023 - July 2023",
         "desc" : [
@@ -13,6 +14,7 @@ const experience_details = [
     {
         "id":2,
         "companyName" : "Persistent Systems Limited",
+        "certLink" : "https://drive.google.com/file/d/1U4Ye7UGWPiPczTbb7BkiaiC6ayyEGYXl/view?usp=sharing",
         "title" : "Summer Intern",
         "tenor" : "June 2022 - August 2022",
         "desc" : [

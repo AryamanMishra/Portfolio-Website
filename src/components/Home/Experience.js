@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import experience_details from '../../data/experience_details'
 import {FaArrowLeft,FaArrowRight} from 'react-icons/fa'
 import { MdAdsClick } from 'react-icons/md'
+import {BiLinkExternal} from 'react-icons/bi'
+
 
 const Experience = ()=> {
 
     const [expIdx,setExpIdx] = useState(0)
 
-    const {id,companyName,title,tenor,desc} = experience_details[expIdx]
+    const {id,companyName,certLink,title,tenor,desc} = experience_details[expIdx]
 
     const checkIndex = (idx) => {
 		if (idx < 0)
@@ -38,7 +40,20 @@ const Experience = ()=> {
             </div>
             <div className="center-experience">
                 <div className="single-experience">
-                    <h2>{companyName}</h2>
+                    <div className="exp-name-div">
+                        <h2>{companyName}</h2>
+                        <a 
+                            href={certLink}
+                            target='_blank'
+                            rel='noreferrer'
+                            style={{marginTop:"0.4em"}}
+                        >
+                            <BiLinkExternal 
+                                size={23}
+                                color='rgb(1, 91, 91)'
+                            />
+                        </a>
+                    </div>
                     <div className="exp-title-div">
                         <h4>{title}</h4>
                     </div>

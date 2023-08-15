@@ -129,25 +129,34 @@
 }
 
 .single-experience {
-    background-color: #d4fffb67;
+    background-color: rgba(150, 207, 229, 0.158);
     border: 1px solid transparent;
     border-radius: 10px;
     padding: 2.5em 2em;
     box-shadow: 0 7px 29px 0 hsla(240,5%,41%,.2);
-    width: 1085px;
-    height: 270px;
+    width: 1150px;
+    height: 275px;
 }
 
 .single-experience h2{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
+    color: rgb(1, 91, 91);
 }
 
 .exp-title-div {
     display: flex;
     align-items: center;
     justify-content: center;  
+}
+
+.exp-name-div {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 0.15em;
 }
 
 .exp-title-div h4 {
@@ -162,12 +171,12 @@
 }
 
 .single-experience p {
-    font-family: 'Roboto', sans-serif;
     color: rgb(1, 91, 91);
     font-size: 1.15em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     padding: 0.65em 0em;
+    letter-spacing: 0.3px;
 }
 
 .exp-button-section {  
