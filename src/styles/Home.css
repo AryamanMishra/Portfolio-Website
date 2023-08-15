@@ -146,11 +146,6 @@
     font-size: 1.55em;
 }
 
-.exp-title-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-}
 
 .exp-name-div {
     display: flex;
@@ -158,6 +153,14 @@
     gap: 1em;
     justify-content: center;
     margin-bottom: 0.15em;
+}
+
+
+.exp-title-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 0.5em;
 }
 
 .exp-title-div h4 {

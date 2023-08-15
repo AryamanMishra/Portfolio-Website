@@ -56,6 +56,7 @@ const Experience = ()=> {
                     </div>
                     <div className="exp-title-div">
                         <h4>{title}</h4>
+                        <h4>{tenor}</h4>
                     </div>
                     
                     {/* <p style={{textAlign:'center'}}>{tenor}</p> */}
