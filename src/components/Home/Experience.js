@@ -59,7 +59,6 @@ const Experience = ()=> {
                         <h4>{tenor}</h4>
                     </div>
                     
-                    {/* <p style={{textAlign:'center'}}>{tenor}</p> */}
                     {
                         desc.map((d,idx) => {
                             return (
