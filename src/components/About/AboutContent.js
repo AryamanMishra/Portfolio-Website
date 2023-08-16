@@ -1,8 +1,10 @@
 import React from 'react'
 import Skill from './Skill'
 import skills from '../../data/skills'
+import icons from '../../data/icons'
 
 const AboutContent = ()=> {
+
     return (
         <div className="main-about-content">
             <div className="main-about-content-title">
@@ -15,7 +17,7 @@ const AboutContent = ()=> {
             <div className="main-about-content-skills">
                 {
                     skills.map((skill,idx)=> {
-                        return <Skill key={idx} skill={skill}/>
+                        return <Skill key={idx} skill={skill} icon={icons[skill]}/>
                     })
                 }
             </div>

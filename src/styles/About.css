@@ -5,6 +5,7 @@
     align-items: flex-start;
     justify-content: center;
     padding-top: 1.5em;
+    padding-bottom: 1em;
 }
 
 .main-about-content {
@@ -32,13 +33,13 @@
 }
 
 .main-about-content-text {
-    padding: 0.5em 1.25em;
-    margin: 0.5em 2em;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 1.5em;
 }
 
 .main-about-content-text p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.12em;
     color: rgb(1, 123, 123);
     letter-spacing: 1px;
     line-height: 1.7em;
@@ -50,10 +51,10 @@
 }
 
 .main-about-content-skills {
-    margin : 1em 3.2em;
+    margin : 1em 2.5em;
     display: grid;
     grid-template-columns: 100px 100px;
-    column-gap: 320px;
+    column-gap: 312px;
     row-gap: 0.8em;
     margin-bottom: 1.5em;
 }
@@ -63,15 +64,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    width: 370px;
     background-color: rgba(128, 128, 128, 0.135);
     padding: 0.5em 0.25em;
+    gap: 0.8em;
+    color: rgb(1, 123, 123);
 }
 
 .about-skill p {
-    color: rgb(1, 123, 123);
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
     /* font-weight: 600; */
     font-size: 1.2em;
+    letter-spacing: 1px;
 }
