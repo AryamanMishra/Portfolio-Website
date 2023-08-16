@@ -1,6 +1,7 @@
 const navLinks = [
     'about',
-    'projects', 
-    'contact'
+    'projects',
+    'stats', 
+    'contact',
 ]
 export default navLinks

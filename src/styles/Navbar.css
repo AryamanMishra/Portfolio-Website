@@ -23,10 +23,10 @@
     font-size: 1.3em;
     border-radius: 5%;
 }
-.home-link:hover {
+/* .home-link:hover {
     transform: scale(1.08);
     transition: all 0.3s ease;
-}
+} */
 .routes {
     display: flex;
     flex-direction: row;

@@ -1,10 +1,10 @@
 const education_details = [
     {
-        "instName" : "Shri G.S Institute of Technology and Science",
+        "instName" : "Shri G.S Institute of Technology and Science, Indore",
         "degreeName" : "B.Tech",
         "grade" : "8.18 CGPA",
         "tenor" : "2019 - 2023",
-        "courses" : "DSA, OOPS, DBMS, OS, Python, Cloud Computing"
+        "courses" : "DSA, OOPS, DBMS, OS, Python, Cloud Computing, Big Data"
     },
 
     {

@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects/Projects'
 import Footer from './components/Footer'
+import Stats from './components/Stats'
 
 
 const App = ()=> {
@@ -18,6 +19,7 @@ const App = ()=> {
 					<Route path='/about' Component={About}/>
 					<Route path='/projects' Component={Projects}/>
 					<Route path='/contact' Component={Contact}/>
+					<Route path='/stats' Component={Stats}/>
 				</Routes>
 				<Footer />
 			</main>	
