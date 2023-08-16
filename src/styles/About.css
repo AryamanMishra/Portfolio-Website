@@ -6,6 +6,7 @@
     justify-content: center;
     padding-top: 1.5em;
     padding-bottom: 1em;
+    padding-right: 0.6em;
 }
 
 .main-about-content {
@@ -64,7 +65,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 370px;
+    width: 355px;
     background-color: rgba(128, 128, 128, 0.135);
     padding: 0.5em 0.25em;
     gap: 0.8em;
