@@ -1,6 +1,5 @@
 import React from 'react'
 import { MdAdsClick } from 'react-icons/md'
-import { Chart } from "react-google-charts";
 
 
 //pie
@@ -13,30 +12,11 @@ const LeetCodeStats = ({leetStats})=> {
     
     const {totalSolved,totalQuestions,acceptanceRate,easySolved,hardSolved,mediumSolved} = leetStats
 
-    const data = [
-        ["Difficulty", "Problems Solved"],
-        ["Easy", easySolved],
-        ["Medium", mediumSolved],
-        ["Hard", hardSolved]
-    ];
-
-    const options = {
-        width: 400,
-        height: 320,
-        backgroundColor:{ fill:'transparent' },
-        is3D: true,
-        legend:'none',
-        colors: ['green','orange','red'],
-    };
     
     return (
         <div className="leetcode-stats-content-div">
             <div className="piechart-content">
-                <Chart
-                    chartType="PieChart"
-                    data={data}
-                    options={options}  
-                />
+               
             </div>
             <div className="all-leetcode-stats-content">
                 <div className="single-leetcode-content-item">
