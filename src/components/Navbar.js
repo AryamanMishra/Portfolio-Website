@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react'
+import React, {useState,useEffect,useRef} from 'react'
 import '../styles/Navbar.css'
 import { Link } from "react-router-dom";
 import navLinks from '../../src/data/navLinks'
@@ -19,37 +19,55 @@ const getLocalStorage = ()=> {
 
 const Navbar = ()=> {
     const [screenIndex,setScreenIndex] = useState(getLocalStorage())
+    const [showNav,setShowNav] = useState(false)
+    const navContainerRef = useRef(null)
+	const navRef = useRef(null)
 
-    const [burg,setBurg] = useState(true)
     useEffect(()=> {
         localStorage.setItem('screenIndex', screenIndex)
     },[screenIndex])
 
 
+    useEffect(()=> {
+		const navHeight = navRef.current.getBoundingClientRect().height;
+		if (showNav) {
+		    navContainerRef.current.style.height = `${navHeight}px`;
+		}
+		else {
+			navContainerRef.current.style.height = '0px';
+		}
+	},[showNav])
+
+
     return (
         <div className='main-nav'>
-            <Link to='/' className='home-link' onClick={()=>setScreenIndex(-1)}><h2>AM</h2></Link>
-            <div className='routes'>
-                {
-                    navLinks.map((link,idx)=> {
-                        return (
-                            <Link 
-                                key={idx}
-                                to={'/' + link} 
-                                className={`nav-links ${idx === screenIndex && 'active-screen'}`}
-                                onClick={()=>setScreenIndex(idx)}
-                            >
-                                <h1>{link}</h1>
-                            </Link>
-                        )
-                    })
-                }
+            <div className="home-link">
+                <Link to='/' onClick={()=>setScreenIndex(-1)}><h2>AM</h2></Link>
             </div>
-            <button 
-                className="nav-toggle"
-                onClick={()=>setBurg(!burg)}
-            >
-                {burg ? <GiHamburgerMenu size={33}/> : <RxCross1 size={32}/>}
+            
+            <div className="routes-container" ref={navContainerRef}>
+                <div className='routes' ref={navRef}>
+                    {
+                        navLinks.map((link,idx)=> {
+                            return (
+                                <Link 
+                                    key={idx}
+                                    to={'/' + link} 
+                                    className={`nav-links ${idx === screenIndex && 'active-screen'}`}
+                                    onClick={()=>setScreenIndex(idx)}
+                                >
+                                    <h1>{link}</h1>
+                                </Link>
+                            )
+                        })
+                    }
+                </div>
+            </div>
+                <button 
+                    className="nav-toggle"
+                    onClick={()=>setShowNav(!showNav)}
+                >
+                    {showNav == false? <GiHamburgerMenu /> :<RxCross1 />}
             </button>
         </div>
     )

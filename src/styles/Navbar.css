@@ -15,18 +15,18 @@
 .home-link {
     padding-top: 0.5em;
     padding-bottom: 1em;
-    text-decoration: none;
-    color: white;
     padding-left: 1.25em;
     padding-right: 1em;
     font-weight: 800;
     font-size: 1.3em;
     border-radius: 5%;
 }
-/* .home-link:hover {
-    transform: scale(1.08);
-    transition: all 0.3s ease;
-} */
+
+.home-link a {
+    text-decoration: none;
+    color: white;
+}
+
 .routes {
     display: flex;
     flex-direction: row;
@@ -35,6 +35,7 @@
     padding-top: 1.1em;
     padding-bottom: 1em;
 }
+
 
 .nav-links {
     text-decoration: none;
@@ -75,7 +76,27 @@
     display: none;
 }
 
-@media only screen and (max-width : 930px){
+.nav-container {
+    height: auto !important
+}
+
+.routes a {
+    margin: 0 0.6em; 
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width : 980px){
+    .main-nav {
+        position: relative;
+        padding: 0.8rem;
+		padding-bottom: 0.1em;
+        background: linear-gradient(120deg, rgb(28, 121, 184) 30%, #fff 30%);
+    }
+    .home-link {
+        display: flex;
+		justify-content: space-between;
+    }
     .nav-toggle {
         display: block;
         background-color: initial;
@@ -86,8 +107,23 @@
         margin-right: 0.85em;
         margin-top: 0.15em;
     }
-
+    .routes-container {
+        height: 0;
+		overflow: hidden;
+		transition: all 0.3s linear;
+		margin: 4.46em 0em;
+        background-color: white;
+    }
+    .routes a{
+        display: block;
+		font-size: 1rem;
+		letter-spacing: 1.5px;
+		text-decoration: none;
+		padding: 0.65rem 0.3rem;
+    }
     .routes {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
     }
 }
