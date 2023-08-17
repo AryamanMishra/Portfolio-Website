@@ -18,7 +18,6 @@ const Stats = ()=> {
             const leetStats = await data.json()
             setLeetStats(leetStats)
             setIsLoading(false)
-            console.log(leetStats)
         }
         catch(err) {
             console.log(err)

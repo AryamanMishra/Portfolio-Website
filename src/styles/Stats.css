@@ -44,6 +44,7 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
+    margin-bottom: -0.5em;
 }
 
 .stats-star-icon {
@@ -79,3 +80,15 @@
     padding: 0.1em 0em;
     letter-spacing: 0.65px;
 }
+.leetcode-stats-dist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.piechart-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
