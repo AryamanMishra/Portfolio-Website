@@ -22,7 +22,7 @@ const LeetCodeStats = ({leetStats})=> {
 
     const options = {
         width: 400,
-        height: 300,
+        height: 320,
         backgroundColor:{ fill:'transparent' },
         is3D: true,
         legend:'none',

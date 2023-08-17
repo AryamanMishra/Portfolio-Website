@@ -206,6 +206,7 @@
     flex-direction: column;
     gap: 1em;
     margin-top: 1em;
+    padding-bottom: 4em;
 }
 .cert-center-title {
     font-family: 'Poppins', sans-serif; 
