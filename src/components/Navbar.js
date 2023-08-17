@@ -3,7 +3,7 @@ import '../styles/Navbar.css'
 import { Link } from "react-router-dom";
 import navLinks from '../../src/data/navLinks'
 import {GiHamburgerMenu} from 'react-icons/gi'
-import {ImCross} from 'react-icons/im'
+import {RxCross1} from 'react-icons/rx'
 
 
 const getLocalStorage = ()=> {
@@ -49,7 +49,7 @@ const Navbar = ()=> {
                 className="nav-toggle"
                 onClick={()=>setBurg(!burg)}
             >
-                {burg ? <GiHamburgerMenu size={33}/> : <ImCross size={29}/>}
+                {burg ? <GiHamburgerMenu size={33}/> : <RxCross1 size={32}/>}
             </button>
         </div>
     )
