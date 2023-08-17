@@ -2,6 +2,8 @@ import React, {useState,useEffect} from 'react'
 import '../styles/Navbar.css'
 import { Link } from "react-router-dom";
 import navLinks from '../../src/data/navLinks'
+import {GiHamburgerMenu} from 'react-icons/gi'
+import {ImCross} from 'react-icons/im'
 
 
 const getLocalStorage = ()=> {
@@ -18,7 +20,7 @@ const getLocalStorage = ()=> {
 const Navbar = ()=> {
     const [screenIndex,setScreenIndex] = useState(getLocalStorage())
 
-
+    const [burg,setBurg] = useState(true)
     useEffect(()=> {
         localStorage.setItem('screenIndex', screenIndex)
     },[screenIndex])
@@ -43,6 +45,12 @@ const Navbar = ()=> {
                     })
                 }
             </div>
+            <button 
+                className="nav-toggle"
+                onClick={()=>setBurg(!burg)}
+            >
+                {burg ? <GiHamburgerMenu size={33}/> : <ImCross size={29}/>}
+            </button>
         </div>
     )
 }

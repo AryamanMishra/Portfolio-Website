@@ -265,6 +265,12 @@
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .intro-title h1 {
+        font-size: 1.75em;
+    }
+}
+
 @media only screen and (max-width: 950px) {
     .single-experience {
         width: 720px;
@@ -276,6 +282,7 @@
         font-size: 1em;
     }
 }
+
 
 @media only screen and (max-width: 830px) {
     .single-experience {
