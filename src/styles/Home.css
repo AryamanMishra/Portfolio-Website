@@ -740,6 +740,9 @@
     .main-page-links {
         transform: scale(0.95);
     }
+    .resume-section {
+        transform: scale(0.95);
+    }
 }
 
 @media only screen and (max-width: 420px) {
@@ -763,6 +766,9 @@
     }
     .main-page-links {
         transform: scale(0.9);
+    }
+    .resume-section {
+        transform: scale(0.85);
     }
 }
 
@@ -788,6 +794,9 @@
     .main-page-links {
         transform: scale(0.85);
     }
+    .resume-section {
+        transform: scale(0.8);
+    }
 }
 
 @media only screen and (max-width: 350px) {
@@ -807,10 +816,13 @@
         font-size: 0.85em;
     }
     .hero-underline {
-        width: 8em;
+        width: 9em;
     }
     .main-page-links {
         transform: scale(0.8);
+    }
+    .resume-section {
+        transform: scale(0.75);
     }
 }
 
@@ -825,7 +837,7 @@
         margin-left: 1em;
     }
     .intro-title h1 {
-        font-size: 1.05em;
+        font-size: 1.08em;
     }
     .intro-title p { 
         font-size: 0.75em;
@@ -834,7 +846,10 @@
         width: 8em;
     }
     .main-page-links {
-        transform: scale(0.8);
+        transform: scale(0.75);
+    }
+    .resume-section {
+        transform: scale(0.7);
     }
 }
 
@@ -862,6 +877,10 @@
         width: 8em;
     }
     .main-page-links {
-        transform: scale(0.65);
+        margin-top: -1px;
+        transform: scale(0.6);
+    }
+    .resume-section {
+        transform: scale(0.6);
     }
 }
