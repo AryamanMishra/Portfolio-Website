@@ -117,7 +117,7 @@
     }
     .routes a{
         display: block;
-		font-size: 1rem;
+		font-size: 0.85rem;
 		letter-spacing: 1.5px;
 		text-decoration: none;
 		padding: 0.65rem 1.75rem;
@@ -137,6 +137,9 @@
 }
 
 @media only screen and (max-width:550px){
+    .home-link h2{
+        font-size: 1.35em;
+    }
     .main-nav {
         position: relative;
         background: linear-gradient(120deg, rgb(28, 121, 184) 30%, #fff 30%);
@@ -144,6 +147,9 @@
 }
 
 @media only screen and (max-width:400px){
+    .home-link h2{
+        font-size: 1.25em;
+    }
     .main-nav {
         position: relative;
         background: linear-gradient(120deg, rgb(28, 121, 184) 35%, #fff 35%);
@@ -151,6 +157,10 @@
 }
 
 @media only screen and (max-width:320px){
+    .home-link h2{
+        font-size: 1.15em;
+        padding-top: 0.3em;
+    }
     .main-nav {
         position: relative;
         background: linear-gradient(120deg, rgb(28, 121, 184) 40%, #fff 40%);
@@ -158,6 +168,10 @@
 }
 
 @media only screen and (max-width:280px){
+    .home-link h2{
+        font-size: 1.05em;
+        padding-top: 0.3em;
+    }
     .main-nav {
         position: relative;
         background: linear-gradient(120deg, rgb(28, 121, 184) 45%, #fff 45%);
