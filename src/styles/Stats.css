@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.stats-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.stats-center-title {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.4em;
+    letter-spacing: 2.5px;
+    color: rgb(3, 3, 79);
+    text-align: center;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.stats-underline {
+    width: 10em;
+    height: 0.15em;
+	background-color: rgb(84, 147, 209);
+}
+
+.leetode-stats-div {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 0.85em 0em;
+    box-shadow: 0 5px 5px 0 hsla(240,5%,41%,.2);
+    width: 950px;
+    background-color: rgba(150, 207, 229, 0.158);
+    margin-top: 2.5em;
+}
+
+.leetcode-stats-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.stats-star-icon {
+    margin-top: 0.3em;
+}
+
+
+.leetcode-stats-title h2{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(1, 91, 91);
+    font-size: 1.7em;
+    padding-right: 1em;
+}
+
+
+.single-leetcode-content-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2em;
+    margin-left: 2em;
+    margin-top: 1.25em;
+    margin-bottom: 0.75em;
+}
+
+.single-leetcode-content-item p {
+    color: rgb(1, 91, 91);
+    font-size: 1.15em;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding: 0.1em 0em;
+    letter-spacing: 0.65px;
+}

@@ -6,7 +6,7 @@ import About from './components/About/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects/Projects'
 import Footer from './components/Footer'
-import Stats from './components/Stats'
+import Stats from './components/Stats/Stats'
 
 
 const App = ()=> {
@@ -14,13 +14,13 @@ const App = ()=> {
 		<BrowserRouter>
 			<main>
 				<Navbar />
-				<Routes>
-					<Route path='/' Component={Home}/>
-					<Route path='/about' Component={About}/>
-					<Route path='/projects' Component={Projects}/>
-					<Route path='/contact' Component={Contact}/>
-					<Route path='/stats' Component={Stats}/>
-				</Routes>
+					<Routes>
+						<Route path='/' element={<Home />}/>
+						<Route path='/about' element={<About />}/>
+						<Route path='/projects' element={<Projects />}/>
+						<Route path='/stats' element={<Stats />}/>
+						<Route path='/contact' element={<Contact />}/>
+					</Routes>
 				<Footer />
 			</main>	
 		</BrowserRouter>
