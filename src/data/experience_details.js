@@ -8,12 +8,13 @@ const experience_details = [
         "desc" : [
             "Created real-time ETL data pipelines using GCP (Google Cloud Platform)",
             "Automated the process of uploading tables to BigQuery from cloud storage using Cloud Function triggers.",
-            "Used BigQuery to process and query obtained data according to business needs."
+            "Used BigQuery to process and query obtained data according to business needs.",
+            "Utilized appropriate IAM roles to synchronize GCP services"
         ]
     },
     {
         "id":2,
-        "companyName" : "Persistent Systems Limited",
+        "companyName" : "Persistent Systems",
         "certLink" : "https://drive.google.com/file/d/1U4Ye7UGWPiPczTbb7BkiaiC6ayyEGYXl/view?usp=sharing",
         "title" : "Summer Intern",
         "tenor" : "June 2022 - August 2022",

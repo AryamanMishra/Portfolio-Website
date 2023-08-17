@@ -133,10 +133,9 @@
     background-color: rgba(150, 207, 229, 0.158);
     border: 1px solid transparent;
     border-radius: 10px;
-    padding: 2.5em 2em;
+    padding: 2.5em 1.75em;
     box-shadow: 0 5px 5px 0 hsla(240,5%,41%,.2);
     width: 1150px;
-    height: 275px;
 }
 
 .single-experience h2{
@@ -162,12 +161,12 @@
     align-items: center;
     justify-content: center;  
     gap: 0.5em;
+    margin: 0.9em 0.2em;
 }
 
 .exp-title-div h4 {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 1px;
-    margin: 1em 0.2em;
     padding: 0.25em 1em;
     color: rgb(1, 123, 123);
     background-color: rgba(128, 128, 128, 0.135);
@@ -209,6 +208,363 @@
 .desc-item {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     gap: 2em;
+}
+
+
+/* responsivensss code below */
+
+/* 1150 */
+/* 1.15
+1.55 */
+@media only screen and (max-width: 1260px) {
+    .single-experience {
+        width: 1050px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .single-experience {
+        width: 950px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .single-experience {
+        width: 850px;
+    }
+    .single-experience h2 {
+        font-size: 1.4em;
+    }
+    .single-experience p {
+        font-size: 1.05em;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .single-experience {
+        width: 720px;
+    }
+    .single-experience h2 {
+        font-size: 1.3em;
+    }
+    .single-experience p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .single-experience {
+        width: 630px;
+    }
+    .single-experience h2 {
+        font-size: 1.2em;
+    }
+    .single-experience p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .single-experience {
+        width: 550px;
+    }
+    .single-experience h2 {
+        font-size: 1.25em;
+    }
+    .single-experience p {
+        font-size: 1em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.9em
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .single-experience {
+        width: 500px;
+    }
+    .single-experience h2 {
+        font-size: 1.25em;
+    }
+    .single-experience p {
+        font-size: 1em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.9em
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .single-experience {
+        width: 450px;
+    }
+    .single-experience h2 {
+        font-size: 1.2em;
+    }
+    .single-experience p {
+        font-size: 1em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.85em
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .single-experience {
+        width: 390px;
+    }
+    .single-experience h2 {
+        font-size: 1.2em;
+    }
+    .single-experience p {
+        font-size: 1em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.85em
+    }
+    .exp-name-div h2{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .single-experience {
+        width: 340px;
+    }
+    .single-experience h2 {
+        font-size: 1.1em;
+    }
+    .single-experience p {
+        font-size: 0.95em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.8em
+    }
+    .exp-name-div {
+        flex-direction: column;
+        gap: 0.1em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .single-experience {
+        width: 300px;
+    }
+    .single-experience h2 {
+        font-size: 1em;
+    }
+    .single-experience p {
+        font-size: 0.9em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.75em
+    }
+    .exp-name-div {
+        padding-left: 0.2em;
+    }
+    .exp-name-div h2{
+        font-size: 1em;
+    }
+    .exp-name-div {
+        flex-direction: column;
+        gap: 0.1em;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .single-experience {
+        width: 250px;
+    }
+    .single-experience h2 {
+        font-size: 0.85em;
+    }
+    .single-experience p {
+        font-size: 0.8em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.75em
+    }
+    .exp-name-div h2{
+        font-size: 1.05em;
+    }
+    .exp-name-div {
+        flex-direction: column;
+        gap: 0.1em;
+    }
+    .desc-item p {
+        margin-left: -1em;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .single-experience {
+        width: 220px;
+    }
+    .single-experience h2 {
+        font-size: 0.85em;
+    }
+    .single-experience p {
+        font-size: 0.82em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.65em
+    }
+    .exp-name-div h2{
+        font-size: 0.95em;
+    }
+    .exp-button-section {
+        transform: scale(0.85);
+    }
+    .exp-name-div {
+        flex-direction: column;
+        gap: 0.1em;
+    }
+    .desc-item p {
+        margin-left: -1em;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .single-experience {
+        width: 200px;
+    }
+    .single-experience p {
+        font-size: 0.82em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.65em
+    }
+    .exp-name-div {
+        flex-direction: column;
+        gap: 0.1em;
+    }
+    .exp-name-div h2{
+        font-size: 0.95em;
+    }
+    .exp-button-section {
+        transform: scale(0.8);
+    }
+    .desc-item p {
+        margin-left: -1em;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .single-experience {
+        width: 180px;
+    }
+    .single-experience p {
+        font-size: 0.8em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.6em
+    }
+    .exp-name-div {
+        flex-direction: column;
+        gap: 0.1em;
+    }
+    .exp-name-div h2{
+        font-size: 0.9em;
+    }
+    .exp-button-section {
+        transform: scale(0.7);
+    }
+    .desc-item p {
+        margin-left: -1.5em;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .single-experience {
+        width: 150px;
+    }
+    .single-experience p {
+        font-size: 0.7em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.5em
+    }
+    .exp-name-div {
+        flex-direction: column;
+        gap: 0.1em;
+    }
+    .exp-name-div h2{
+        font-size: 0.8em;
+    }
+    .exp-button-section {
+        transform: scale(0.6);
+    }
+    .desc-item p {
+        margin-left: -1.75em;
+    }
+}
+
+@media only screen and (max-width: 230px) {
+    .single-experience {
+        width: 130px;
+    }
+    .single-experience p {
+        font-size: 0.65em;
+    }
+    .exp-title-div {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .exp-title-div h4 {
+        font-size: 0.45em
+    }
+    .exp-name-div {
+        flex-direction: column;
+        gap: 0.1em;
+    }
+    .exp-name-div h2{
+        font-size: 0.75em;
+    }
+    .exp-button-section {
+        transform: scale(0.5);
+    }
+    .desc-item p {
+        margin-left: -2em;
+    }
 }
