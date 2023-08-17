@@ -67,7 +67,7 @@ const Navbar = ()=> {
                     className="nav-toggle"
                     onClick={()=>setShowNav(!showNav)}
                 >
-                    {showNav == false? <GiHamburgerMenu /> :<RxCross1 />}
+                    {showNav === false? <GiHamburgerMenu /> :<RxCross1 />}
             </button>
         </div>
     )

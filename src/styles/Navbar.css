@@ -50,9 +50,8 @@
 
 .nav-links:hover {
     color: rgb(28, 121, 184);
-    transform: scale(1.05);
-    transition: all 0.3s ease;
-    
+    transform: scale(1.01);
+    transition: all 0.3s ease;   
 }
 
 .nav-links::after {
@@ -61,7 +60,7 @@
     width: 0;
     height: 2px;
     background: rgb(28, 121, 184);
-    transition: width .45s;
+    transition: width .75s;
 }
 
 .nav-links:hover::after {
@@ -108,22 +107,32 @@
         margin-top: 0.15em;
     }
     .routes-container {
+        position: absolute;
         height: 0;
 		overflow: hidden;
 		transition: all 0.3s linear;
 		margin: 4.46em 0em;
         background-color: white;
+        width: 100%;
+        margin-left: -0.85em;
     }
     .routes a{
         display: block;
 		font-size: 1rem;
 		letter-spacing: 1.5px;
 		text-decoration: none;
-		padding: 0.65rem 0.3rem;
+		padding: 0.65rem 1.75rem;
     }
     .routes {
         display: flex;
         flex-direction: column;
         gap: 1em;
+    }
+
+    .nav-links::after {
+        content: '';
+        display: none;
+        width: 0;
+        transition: width .5s;
     }
 }
