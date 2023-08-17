@@ -8,7 +8,7 @@ const Intro = ()=> {
     return (
         <div className='intro'>
             <div className='intro-title'>
-                <div className="underline" style={{width:'7.5em',height:'0.22em',marginTop:'-6em',marginBottom:'1.5em'}}></div>
+                <div className="hero-underline"></div>
                 <h1>Hey there.. I am Aryaman</h1>
                 <p>Software Development Engineer</p>
             </div>
