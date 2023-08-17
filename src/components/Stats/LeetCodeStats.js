@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { MdAdsClick } from 'react-icons/md'
 import { Chart } from "react-google-charts";
 
@@ -38,18 +38,21 @@ const LeetCodeStats = ({leetStats})=> {
                     options={options}  
                 />
             </div>
-            <div className="single-leetcode-content-item">
-                <MdAdsClick />
-                <p>Total Solved : {totalSolved} / {totalQuestions}</p>
+            <div className="all-leetcode-stats-content">
+                <div className="single-leetcode-content-item">
+                    <MdAdsClick />
+                    <p>Total Solved : {totalSolved} / {totalQuestions}</p>
+                </div>
+                <div className="single-leetcode-content-item">
+                    <MdAdsClick />
+                    <p>Rating : {RATING}</p>
+                </div>
+                <div className="single-leetcode-content-item">
+                    <MdAdsClick />
+                    <p>Acceptance Rate : {acceptanceRate}%</p>
+                </div>
             </div>
-            <div className="single-leetcode-content-item">
-                <MdAdsClick />
-                <p>Rating : {RATING}</p>
-            </div>
-            <div className="single-leetcode-content-item">
-                <MdAdsClick />
-                <p>Acceptance Rate : {acceptanceRate}%</p>
-            </div>
+            
         </div>
     )
 }

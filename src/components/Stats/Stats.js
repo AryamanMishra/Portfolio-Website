@@ -3,6 +3,7 @@ import Loading from './Loading';
 import LeetCodeStats from './LeetCodeStats';
 import '../../styles/Stats.css'
 import { AiFillStar } from 'react-icons/ai';
+import {BiLinkExternal} from 'react-icons/bi'
 
 
 const URL = "https://leetcode-stats-api.herokuapp.com/modest_aryaman09"
@@ -43,6 +44,13 @@ const Stats = ()=> {
                             className='stats-star-icon'
 					    />
                         <h2>LeetCode</h2>
+                        <a target='_blank' rel='noreferrer'href="https://leetcode.com/modest_aryaman09/" style={{marginLeft:"-1.75em",marginTop:'0.5em',cursor:'pointer'}}>
+                            <BiLinkExternal 
+                                size={23}
+                                color='rgb(1, 91, 91)'
+                            />
+                        </a>
+                        
                     </div>
                     {  isLoading ? <Loading /> : <LeetCodeStats leetStats={leetStats}/>}
                 </div>

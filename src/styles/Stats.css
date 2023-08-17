@@ -39,12 +39,13 @@
     margin-top: 2.5em;
 }
 
+
 .leetcode-stats-title {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1em;
-    margin-bottom: -0.5em;
+    margin-top: 0.5em;
 }
 
 .stats-star-icon {
@@ -67,8 +68,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 2em;
-    margin-left: 2em;
-    margin-top: 1.25em;
+    margin-top: 1.2em;
     margin-bottom: 0.75em;
 }
 
@@ -77,13 +77,13 @@
     font-size: 1.15em;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
-    padding: 0.1em 0em;
     letter-spacing: 0.65px;
 }
-.leetcode-stats-dist {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.all-leetcode-stats-content {
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
 }
 
 .piechart-content {

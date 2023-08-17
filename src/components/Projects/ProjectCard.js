@@ -4,7 +4,7 @@ import {AiFillGithub} from 'react-icons/ai'
 import {BiLinkExternal} from 'react-icons/bi'
 
 const ProjectCard = ({ project })=> {
-    const {name,desc,tag,img,githubLink,deployedLink} = project
+    const {name,desc,img,githubLink,deployedLink} = project
 
     return (
         <div className='project-card'>

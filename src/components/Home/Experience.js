@@ -9,7 +9,7 @@ const Experience = ()=> {
 
     const [expIdx,setExpIdx] = useState(0)
 
-    const {id,companyName,certLink,title,tenor,desc} = experience_details[expIdx]
+    const {companyName,certLink,title,tenor,desc} = experience_details[expIdx]
 
     const checkIndex = (idx) => {
 		if (idx < 0)
