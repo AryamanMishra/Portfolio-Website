@@ -22,10 +22,22 @@
     justify-content: center;
 }
 
-.title h1 {
-    font-family: 'Poppins', sans-serif;
+.intro-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4em;
+    gap: 0.75em;
 }
-.title p {
+
+.intro-title h1 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(3, 3, 79);
+    font-size: 2.4rem;
+}
+.intro-title p {
     font-size: 1.2em;
     color: rgb(1, 123, 123);
     margin-top: 0.1em;
@@ -223,15 +235,21 @@
 /* 1150 */
 /* 1.15
 1.55 */
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 1220px) {
     .single-experience {
         width: 1050px;
+    }
+    .intro-title h1 {
+        font-size: 2.2em;
     }
 }
 
 @media only screen and (max-width: 1150px) {
     .single-experience {
         width: 950px;
+    }
+    .intro-title h1 {
+        font-size: 2em;
     }
 }
 

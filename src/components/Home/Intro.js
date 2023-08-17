@@ -7,9 +7,9 @@ import Resume from '../../data/Resume-Aryaman-Mishra.pdf'
 const Intro = ()=> {
     return (
         <div className='intro'>
-            <div className='title'>
+            <div className='intro-title'>
                 <div className="underline" style={{width:'7.5em',height:'0.22em',marginTop:'-6em',marginBottom:'1.5em'}}></div>
-                <h1 style={{fontSize:"2.45em"}}>Hey there.. I am Aryaman</h1>
+                <h1>Hey there.. I am Aryaman</h1>
                 <p>Software Development Engineer</p>
             </div>
             <div className="resume-section">
