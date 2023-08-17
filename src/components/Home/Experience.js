@@ -36,7 +36,7 @@ const Experience = ()=> {
         <div className="main-experience-section">
             <div className="experience-title">
                 <h2>Experience</h2>
-                <div className='underline' style={{width:'11em'}}></div>
+                <div className='exp-underline'></div>
             </div>
             <div className="center-experience">
                 <div className="single-experience">
