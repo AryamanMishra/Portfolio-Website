@@ -85,12 +85,6 @@
     margin-bottom: 1em;
 }
 
-.piechart-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .leetcode-stats-loading-div {
    margin: 1em 2em;
 }
@@ -252,4 +246,14 @@
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
     letter-spacing: 0.65px;
+}
+
+.piechart-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-left: auto;
+    width: 100%;
+    margin-top: 2.5em;
 }

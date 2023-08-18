@@ -1,5 +1,8 @@
 import React from 'react'
 import { MdAdsClick } from 'react-icons/md'
+import { Doughnut } from "react-chartjs-2";
+import {Chart, ArcElement,Tooltip} from 'chart.js'
+Chart.register(ArcElement, Tooltip);
 
 
 //pie
@@ -12,11 +15,34 @@ const LeetCodeStats = ({leetStats})=> {
     
     const {totalSolved,totalQuestions,acceptanceRate,easySolved,hardSolved,mediumSolved} = leetStats
 
+
+    const pieChartData = {
+        labels: ["Easy", "Medium" ,"Hard"],
+        datasets: [
+          {
+            label: '# of Questions',
+            data: [easySolved,mediumSolved,hardSolved],
+            backgroundColor: [
+                "green",
+                "orange",
+                "red"
+            ],
+            hoverBackgroundColor: [
+                "green",
+                "orange",
+                "red"
+            ],
+          },
+        ],
+    };
     
     return (
         <div className="leetcode-stats-content-div">
             <div className="piechart-content">
-               
+                <Doughnut 
+                    data={pieChartData} 
+                    
+                />
             </div>
             <div className="all-leetcode-stats-content">
                 <div className="single-leetcode-content-item">
