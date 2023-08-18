@@ -194,3 +194,315 @@
     transition: background 0s;
     border-radius: 50%;
 }
+
+
+/* resp  */
+
+@media only screen and (max-width:1300px) {
+    .main-about-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4em;
+    }
+    .hero-img-about {
+        padding-top: 3em;
+        margin-right: 5em;
+    }
+    .main-about-content-title h2 {
+        font-size: 2.2em;
+    }
+    .about-underline {
+        width: 13em;
+    }
+    .main-about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-about-content-skills {
+        grid-template-columns: 100px 100px 100px;
+        margin-left: -13.5em;
+        padding-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width:1260px) {
+    .main-about-content-skills {
+       transform: scale(0.95);
+    }
+}
+
+@media only screen and (max-width:1230px) {
+    .main-about-content-skills {
+       transform: scale(0.87);
+    }
+}
+
+@media only screen and (max-width:1150px) {
+    .main-about-content-skills {
+        transform: scale(1);
+        grid-template-columns: 100px 100px 
+    }
+}
+
+
+@media only screen and (max-width:1100px) {
+    .main-about-content-skills {
+        grid-template-columns: 100px 100px 
+    }
+}
+
+@media only screen and (max-width:1060px) {
+    .main-about-content-skills {
+        grid-template-columns: 100px 100px 
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .main-about-content-skills {
+        grid-template-columns: 90px 90px ;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-skill {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width:830px) {
+    .main-about-content-skills {
+        grid-template-columns: 80px 75px ;
+        column-gap: 290px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-skill {
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .main-about-content-skills {
+        grid-template-columns: 75px 60px ;
+        column-gap: 270px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-skill {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .main-about-content-skills {
+        grid-template-columns: 60px 40px ;
+        column-gap: 260px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-skill {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width:730px) {
+    .main-about-content-skills {
+        grid-template-columns: 50px 35px ;
+        column-gap: 260px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-skill {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    .main-about-content-skills {
+        grid-template-columns: 50px 25px ;
+        column-gap: 230px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-skill {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 10px ;
+        column-gap: 210px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -10px;
+    }
+    .about-skill {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width:590px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 5px ;
+        column-gap: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -10px;
+    }
+    .about-skill {
+        width: 180px;
+    }
+    .about-skill p { 
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 5px ;
+        column-gap: 180px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -25px;
+    }
+    .about-skill {
+        width: 180px;
+    }
+    .about-skill p { 
+        font-size: 0.95em;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 5px ;
+        column-gap: 160px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -35px;
+    }
+    .about-skill {
+        width: 160px;
+    }
+    .about-skill p { 
+        font-size: 0.95em;
+    }
+}
+
+@media only screen and (max-width:470px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 5px ;
+        column-gap: 140px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -55px;
+    }
+    .about-skill {
+        width: 150px;
+    }
+    .about-skill p { 
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 0px ;
+        column-gap: 130px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -75px;
+    }
+    .about-skill {
+        width: 140px;
+    }
+    .about-skill p { 
+        font-size: 0.87em;
+    }
+}
+
+@media only screen and (max-width:370px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 0px ;
+        column-gap: 110px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -95px;
+    }
+    .about-skill {
+        width: 135px;
+    }
+    .about-skill p { 
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 0px ;
+        column-gap: 95px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -105px;
+    }
+    .about-skill {
+        width: 120px;
+    }
+    .about-skill p { 
+        font-size: 0.75em;
+    }
+}
+
+@media only screen and (max-width:290px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 0px ;
+        column-gap: 85px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -120px;
+    }
+    .about-skill {
+        width: 110px;
+    }
+    .about-skill p { 
+        font-size: 0.65em;
+    }
+}
+
+@media only screen and (max-width:275px) {
+    .main-about-content-skills {
+        grid-template-columns: 40px 0px ;
+        column-gap: 78px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -130px;
+    }
+    .about-skill {
+        width: 105px;
+    }
+    .about-skill p { 
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width:260px) { 
+    .main-about-content-skills {
+        grid-template-columns: 40px 0px ;
+        column-gap: 72px;
+        align-items: center;
+        justify-content: center;
+        margin-right: -130px;
+    }
+    .about-skill {
+        width: 100px;
+    }
+    .about-skill p { 
+        font-size: 0.55em;
+    }
+}
+
+
+
+

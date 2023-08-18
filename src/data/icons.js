@@ -19,7 +19,7 @@ const icons = {
     "Node JS" : <FaNodeJs size={21}/>,
     "Mongo DB" : <DiMongodb size={21}/>,
     "Express JS" : <DiJavascript1 size={21}/>,
-    "Object Oriented Programming" : <DiCodeBadge size={21}/>,
+    "OOPS" : <DiCodeBadge size={21}/>,
     "Linux" : <FaLinux size={21}/>
 }
 

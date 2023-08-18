@@ -12,7 +12,7 @@ const skills = [
     "Node JS",
     "Mongo DB",
     "Express JS",
-    "Object Oriented Programming",
+    "OOPS",
     "Linux"
 ]
 

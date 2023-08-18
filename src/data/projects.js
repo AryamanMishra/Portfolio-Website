@@ -56,7 +56,7 @@ const personal_projects = [
     {
         "id":"6",
         "name":"To do List Application",
-        "desc":"A basic to-do list application for mobile devices made using React Native, hosted on expo cloud and built using EAS CLI. i",
+        "desc":"A basic to-do list application for mobile devices made using React Native.",
         "tag": "rn",
         "img":TODOListIcon,
         'githubLink':"https://github.com/AryamanMishra/To-do-List-RN",
