@@ -109,7 +109,7 @@
         height: 0;
 		overflow: hidden;
 		transition: all 0.3s linear;
-		margin: 4.46em 0em;
+		margin: 4.45em 0em;
         background-color: white;
         width: 100%;
         margin-left: -0.88em;
@@ -151,7 +151,6 @@
         font-size: 1.25em;
     }
     .main-nav {
-        position: relative;
         background: linear-gradient(120deg, rgb(28, 121, 184) 35%, #fff 35%);
     }
 }
@@ -162,7 +161,6 @@
         padding-top: 0.3em;
     }
     .main-nav {
-        position: relative;
         background: linear-gradient(120deg, rgb(28, 121, 184) 40%, #fff 40%);
     }
 }
@@ -173,21 +171,18 @@
         padding-top: 0.3em;
     }
     .main-nav {
-        position: relative;
         background: linear-gradient(120deg, rgb(28, 121, 184) 45%, #fff 45%);
     }
 }
 
 @media only screen and (max-width:240px){
     .main-nav {
-        position: relative;
         background: linear-gradient(120deg, rgb(28, 121, 184) 50%, #fff 50%);
     }
 }
 
 @media only screen and (max-width:200px){
     .main-nav {
-        position: relative;
         background: linear-gradient(120deg, rgb(28, 121, 184) 55%, #fff 55%);
     }
 }
