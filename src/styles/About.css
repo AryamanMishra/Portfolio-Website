@@ -458,6 +458,9 @@
     .desc-edu p {
         font-size: 1em;
     }
+    .education-title {
+        font-size: 1.45em;
+    }
 }
 
 @media only screen and (max-width:470px) {
@@ -497,6 +500,9 @@
     }
     .desc-edu p {
         font-size: 0.95em;
+    }
+    .education-title {
+        font-size: 1.3em;
     }
 }
 
@@ -542,6 +548,9 @@
     .edu-button-section {
         transform: scale(0.9);
     }
+    .education-title {
+        font-size: 1.25em;
+    }
 }
 
 @media only screen and (max-width:370px) {
@@ -584,6 +593,9 @@
     }
     .desc-edu p {
         font-size: 0.85em;
+    }
+    .education-title {
+        font-size: 1.15em;
     }
 }
 
@@ -643,6 +655,9 @@
     .edu-button-section {
         transform: scale(0.7);
     }
+    .education-title {
+        font-size: 1.05em;
+    }
 }
 
 @media only screen and (max-width:300px){
@@ -686,6 +701,9 @@
     }
     .edu-button-section {
         transform: scale(0.6);
+    }
+    .education-title {
+        font-size: 1.02em;
     }
 }
 
@@ -739,6 +757,9 @@
     }
     .about-skill p { 
         font-size: 0.55em;
+    }
+    .education-title {
+        font-size: 0.9em;
     }
 }
 
