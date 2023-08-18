@@ -92,6 +92,10 @@
 	color: #fafa0e;
 }
 
+
+
+/* resp  below */
+
 @media only screen and (max-width: 600px) {
 	.contact-center {
 		transform: scale(0.9);
