@@ -9,14 +9,14 @@ const Footer = ()=> {
     return (
         <footer className='main-footer'>
             <div className='footer-links'>
-                <a href="https://github.com/AryamanMishra" target='_blank' rel="noreferrer">
+                <a href="https://github.com/AryamanMishra/Portfolio-Website" target='_blank' rel="noreferrer">
                     <AiFillGithub />
                 </a>
                 <a href="https://www.linkedin.com/in/aryaman-mishra-576527190/" target='_blank' rel="noreferrer">
                     <AiFillLinkedin />
                 </a>
             </div>
-            <h4>Made with <AiFillHeart color='red' size={15}/> in React</h4>
+            <h4>Made with <AiFillHeart color='red' size={19} style={{marginBottom:'-4px'}}/> in React</h4>
         </footer>
     )
 }

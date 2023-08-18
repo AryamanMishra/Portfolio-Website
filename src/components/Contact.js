@@ -10,7 +10,7 @@ const Contact = ()=> {
 				<div className="contact-center-title">
 					<h2>Lets Connect</h2>
 					<AiFillStar 
-						size={32}
+						size={30}
 						color='rgb(28, 121, 184)'
 						className='star-icon'
 					/>
