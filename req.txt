@@ -1,2 +1,3 @@
-add responsiveness
+add responsiveness in stats page
+re design projects page
 pie chart?

@@ -37,15 +37,15 @@
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	margin-left: 6em;
-	gap: 10em;
+	margin-left: 4em;
+	gap: 11em;
 	margin-top: 8em;
 }
 
 .project-tags {
 	display: flex;
 	flex-direction: column;
-	gap: 0.75em;
+	gap: 1em;
 }
 
 .project-tags h3 {
@@ -70,9 +70,9 @@
 
 .personal-projects-center {
 	display: grid;
-	column-gap: 70px;
+	column-gap: 80px;
 	row-gap: 270px;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr;
 	margin-bottom: 10em;
 }
 
@@ -171,3 +171,31 @@
 	background-color: rgb(84, 147, 209);
 	border: 0.5px transparent rgba(128, 128, 128, 0.1);
 }
+
+@media only screen and (max-width:1275px){
+	.personal-projects-container {
+		flex-direction: column;
+		
+	}
+	.personal-projects-center {
+		margin-top: -2em;
+		margin-left: 10%;
+	}
+	.project-tags {
+		flex-direction: row;
+		gap: 3em;
+		margin-left: 4em;
+	}
+}
+
+@media only screen and (max-width:1095px){
+	.personal-projects-center {
+		margin-top: -2em;
+		margin-left: 10%;
+	}
+	.project-tags {
+		width: 850px;
+
+	}
+}
+
