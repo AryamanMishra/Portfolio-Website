@@ -268,6 +268,9 @@
     .about-skill {
         width: 340px;
     }
+    .hero-img-about { 
+        width: 55%;
+    }
 }
 
 @media only screen and (max-width:830px) {
@@ -279,6 +282,9 @@
     }
     .about-skill {
         width: 330px;
+    }
+    .hero-img-about { 
+        width: 50%;
     }
 }
 
@@ -328,6 +334,9 @@
     .about-skill {
         width: 250px;
     }
+    .hero-img-about { 
+        width: 55%;
+    }
 }
 
 @media only screen and (max-width:650px) {
@@ -356,6 +365,12 @@
     }
     .about-skill p { 
         font-size: 1em;
+    }
+    .main-about-content-title h2{
+        font-size: 1.8em;
+    }
+    .about-underline {
+        width: 10em;
     }
 }
 
@@ -405,6 +420,15 @@
     .about-skill p { 
         font-size: 0.9em;
     }
+    .main-about-content-title h2{
+        font-size: 1.7em;
+    }
+    .about-underline {
+        width: 9em;
+    }
+    .hero-img-about { 
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width:420px) {
@@ -420,6 +444,9 @@
     }
     .about-skill p { 
         font-size: 0.87em;
+    }
+    .hero-img-about { 
+        width: 65%;
     }
 }
 
@@ -437,6 +464,15 @@
     .about-skill p { 
         font-size: 0.8em;
     }
+    .main-about-content-title h2{
+        font-size: 1.6em;
+    }
+    .about-underline {
+        width: 8.5em;
+    }
+    .hero-img-about { 
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width:330px) {
@@ -452,6 +488,9 @@
     }
     .about-skill p { 
         font-size: 0.75em;
+    }
+    .hero-img-about { 
+        width: 75%;
     }
 }
 
@@ -469,6 +508,12 @@
     .about-skill p { 
         font-size: 0.65em;
     }
+    .main-about-content-title h2{
+        font-size: 1.45em;
+    }
+    .about-underline {
+        width: 8em;
+    }
 }
 
 @media only screen and (max-width:275px) {
@@ -484,6 +529,9 @@
     }
     .about-skill p { 
         font-size: 0.6em;
+    }
+    .hero-img-about { 
+        width: 80%;
     }
 }
 
