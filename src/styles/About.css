@@ -35,8 +35,8 @@
 }
 
 .main-about-content-text {
-    padding: 0.75em 1.25em;
-    margin: 0.5em 1.5em;
+    padding: 0.5em 0.75em;
+    margin: 0.5em 1em;
 }
 
 .main-about-content-text p {
@@ -53,7 +53,7 @@
 }
 
 .main-about-content-skills {
-    margin : 1em 2.5em;
+    margin : 1em 1.5em;
     display: grid;
     grid-template-columns: 100px 100px;
     column-gap: 312px;
@@ -403,6 +403,9 @@
     }
     .about-skill p { 
         font-size: 0.95em;
+    }
+    .main-about-content-text p {
+        font-size: 1.05em;
     }
 }
 
