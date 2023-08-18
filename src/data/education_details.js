@@ -4,7 +4,7 @@ const education_details = [
         "degreeName" : "B.Tech",
         "grade" : "8.18 CGPA",
         "tenor" : "2019 - 2023",
-        "courses" : "DSA, OOPS, DBMS, OS, Python, Cloud Computing, Big Data"
+        "courses" : "DSA,DBMS,Cloud"
     },
 
     {

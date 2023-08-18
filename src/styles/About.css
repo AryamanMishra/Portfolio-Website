@@ -111,7 +111,7 @@
     border-radius: 10px;
     padding: 2.5em 2em;
     box-shadow: 0 5px 5px 0 hsla(240,5%,41%,.2);
-    width: 950px;
+    width: 920px;
     background-color: rgba(150, 207, 229, 0.158);
 }
 
@@ -136,12 +136,12 @@
     align-items: center;
     justify-content: center;  
     gap: 0.5em;
+    margin: 1.2em 0.2em;
 }
 
 .education-degree-div h4 {
     font-family: 'Quicksand', sans-serif;
-    letter-spacing: 1px;
-    margin: 1em 0.2em;
+    letter-spacing: 1px; 
     padding: 0.25em 1em;
     color: rgb(1, 123, 123);
     background-color: rgba(128, 128, 128, 0.135);
@@ -154,7 +154,7 @@
     justify-content: flex-start;
     gap: 1em;
     flex-direction: column;
-    margin: 0.5em 1.2em;
+    margin: 0.5em 0.5em;
 }
 
 .desc-edu p {
@@ -169,7 +169,7 @@
 .single-desc-edu {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     gap: 2em;
 }
 
@@ -257,6 +257,15 @@
     .main-about-content-skills {
         grid-template-columns: 100px 100px 
     }
+    .single-education {
+        width: 820px;
+    }
+}
+
+@media only screen and (max-width:925px) {
+    .single-education {
+        width: 720px;
+    }
 }
 
 @media only screen and (max-width:860px) {
@@ -285,6 +294,12 @@
     }
     .hero-img-about { 
         width: 50%;
+    }
+    .single-education {
+        width: 620px;
+    }
+    .education-name-div h2{
+        font-size: 1.30em;
     }
 }
 
@@ -322,6 +337,12 @@
     .about-skill {
         width: 280px;
     }
+    .single-education {
+        width: 545px;
+    }
+    .education-name-div h2{
+        font-size: 1.25em;
+    }
 }
 
 @media only screen and (max-width:690px) {
@@ -350,6 +371,15 @@
     .about-skill {
         width: 220px;
     }
+    .single-education {
+        width: 500px;
+    }
+    .education-name-div h2{
+        font-size: 1.25em;
+    }
+    .education-degree-div h4{
+        font-size: 1em;
+    }
 }
 
 @media only screen and (max-width:590px) {
@@ -371,6 +401,15 @@
     }
     .about-underline {
         width: 10em;
+    }
+    .single-education {
+        width: 415px;
+    }
+    .education-name-div h2{
+        font-size: 1.2em;
+    }
+    .education-degree-div h4{
+        font-size: 0.95em;
     }
 }
 
@@ -407,6 +446,18 @@
     .main-about-content-text p {
         font-size: 1.05em;
     }
+    .single-education {
+        width: 350px;
+    }
+    .education-name-div h2{
+        font-size: 1.15em;
+    }
+    .education-degree-div h4{
+        font-size: 0.9em;
+    }
+    .desc-edu p {
+        font-size: 1em;
+    }
 }
 
 @media only screen and (max-width:470px) {
@@ -434,6 +485,21 @@
     }
 }
 
+@media only screen and (max-width:440px){
+    .single-education {
+        width: 305px;
+    }
+    .education-name-div h2{
+        font-size: 1.1em;
+    }
+    .education-degree-div h4{
+        font-size: 0.85em;
+    }
+    .desc-edu p {
+        font-size: 0.95em;
+    }
+}
+
 @media only screen and (max-width:420px) {
     .main-about-content-skills {
         grid-template-columns: 40px 0px ;
@@ -450,6 +516,31 @@
     }
     .hero-img-about { 
         width: 65%;
+    }
+    .single-education {
+        width: 300px;
+    }
+    .education-name-div h2{
+        font-size: 1.05em;
+    }
+}
+
+@media only screen and (max-width:390px){
+    .single-education {
+        width: 270px;
+    }
+    .education-name-div h2{
+        font-size: 1.05em;
+    }
+    .education-degree-div h4{
+        font-size: 0.8em;
+    }
+    .education-degree-div {
+        flex-direction: column;
+        gap: 0.65em;
+    }
+    .edu-button-section {
+        transform: scale(0.9);
     }
 }
 
@@ -478,6 +569,44 @@
     }
 }
 
+@media only screen and (max-width:360px){
+    .single-education {
+        width: 250px;
+    }
+    .education-name-div h2{
+        font-size: 1.05em;
+    }
+    .education-degree-div h4{
+        font-size: 0.75em;
+    }
+    .edu-button-section {
+        transform: scale(0.8);
+    }
+    .desc-edu p {
+        font-size: 0.85em;
+    }
+}
+
+
+@media only screen and (max-width:340px){
+    .single-education {
+        width: 245px;
+    }
+    .education-name-div h2{
+        font-size: 1em;
+    }
+    .education-degree-div h4{
+        font-size: 0.7em;
+    }
+    .edu-button-section {
+        transform: scale(0.75);
+    }
+    .desc-edu p {
+        font-size: 0.78em;
+    }
+}
+
+
 @media only screen and (max-width:330px) {
     .main-about-content-skills {
         grid-template-columns: 40px 0px ;
@@ -495,7 +624,42 @@
     .hero-img-about { 
         width: 75%;
     }
+    .single-education {
+        width: 210px;
+    }
+    .education-name-div h2{
+        font-size: 1em;
+    }
+    .education-degree-div {
+        flex-direction: column;
+        gap: 0.65em;
+    }
+    .education-degree-div h4{
+        font-size: 0.75em;
+    }
+    .edu-button-section {
+        transform: scale(0.8);
+    }
 }
+
+@media only screen and (max-width:300px){
+    .single-education {
+        width: 190px;
+    }
+    .education-name-div h2{
+        font-size: 0.85em;
+    }
+    .education-degree-div h4{
+        font-size: 0.6em;
+    }
+    .edu-button-section {
+        transform: scale(0.7);
+    }
+    .desc-edu p {
+        font-size: 0.7em;
+    }
+}
+
 
 @media only screen and (max-width:290px) {
     .main-about-content-skills {
@@ -535,6 +699,21 @@
     }
     .hero-img-about { 
         width: 80%;
+    }
+    .single-education {
+        width: 165px;
+    }
+    .education-name-div h2{
+        font-size: 0.8em;
+    }
+    .education-degree-div h4{
+        font-size: 0.55em;
+    }
+    .edu-button-section {
+        transform: scale(0.7);
+    }
+    .desc-edu p {
+        font-size: 0.65em;
     }
 }
 
