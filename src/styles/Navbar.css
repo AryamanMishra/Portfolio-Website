@@ -108,7 +108,7 @@
         position: absolute;
         height: 0;
 		overflow: hidden;
-		transition: all 0.3s linear;
+		transition: all 0.275s linear;
 		margin: 4.45em 0em;
         background-color: white;
         width: 100%;

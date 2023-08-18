@@ -39,6 +39,11 @@ const Navbar = ()=> {
 	},[showNav])
 
 
+    const handleNavClick = (idx)=> {
+        setScreenIndex(idx)
+        setShowNav(false)
+    }
+
     return (
         <div className='main-nav'>
             <div className="home-link">
@@ -54,7 +59,7 @@ const Navbar = ()=> {
                                     key={idx}
                                     to={'/' + link} 
                                     className={`nav-links ${idx === screenIndex && 'active-screen'}`}
-                                    onClick={()=>setScreenIndex(idx)}
+                                    onClick={()=>handleNavClick(idx)}
                                 >
                                     <h1>{link}</h1>
                                 </Link>
