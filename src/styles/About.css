@@ -640,6 +640,9 @@
     .edu-button-section {
         transform: scale(0.8);
     }
+    .edu-button-section {
+        transform: scale(0.7);
+    }
 }
 
 @media only screen and (max-width:300px){
@@ -681,6 +684,9 @@
     .about-underline {
         width: 8em;
     }
+    .edu-button-section {
+        transform: scale(0.6);
+    }
 }
 
 @media only screen and (max-width:275px) {
@@ -714,6 +720,9 @@
     }
     .desc-edu p {
         font-size: 0.65em;
+    }
+    .edu-button-section {
+        transform: scale(0.58);
     }
 }
 
