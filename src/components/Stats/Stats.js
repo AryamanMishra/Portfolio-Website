@@ -26,9 +26,9 @@ const Stats = ()=> {
         }
     }
 
-    // useEffect(()=> {
-    //     fetchData()
-    // },[])
+    useEffect(()=> {
+        fetchData()
+    },[])
 
     
     return (

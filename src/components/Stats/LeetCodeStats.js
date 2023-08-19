@@ -21,7 +21,8 @@ const LeetCodeStats = ({leetStats})=> {
         datasets: [
           {
             label: '# of Questions',
-            data: [20,25,5],
+            data: [easySolved,mediumSolved,hardSolved],
+            // data : [20,25,5],
             backgroundColor: [
                 "green",
                 "orange",
@@ -41,7 +42,6 @@ const LeetCodeStats = ({leetStats})=> {
             <div className="piechart-content">
                 <Doughnut 
                     data={pieChartData} 
-                    
                 />
             </div>
             <div className="all-leetcode-stats-content">
