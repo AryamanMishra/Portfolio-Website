@@ -1,2 +1,1 @@
-add responsiveness in stats page
 re design projects page
