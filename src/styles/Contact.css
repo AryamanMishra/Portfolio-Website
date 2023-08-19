@@ -9,7 +9,7 @@
 	margin-right: auto;
 	margin-top: 4em;
 	border-radius: 15px;
-	box-shadow: rgb(0, 0, 0) 1.2px 1.2px 1px 0px;
+	box-shadow: rgba(0, 0, 0, 0.299) 2px 2px 1px 0px;
 }
 
 .contact-center h2 {
@@ -52,7 +52,7 @@
 	width: 400px;
 	border: 0.2px solid grey;
 	height: 2em;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 0.5em 0.75em;
 	font-family: 'Ruda', sans-serif;
 	font-size: 1.1em;
@@ -98,171 +98,110 @@
 
 @media only screen and (max-width: 600px) {
 	.contact-center {
-		transform: scale(0.9);
-	}
-}
-
-@media only screen and (max-width: 550px) {
-	.contact-center {
-		transform: scale(0.82);
-		margin-right: 0.7em;
-		margin-left: -0.7em;
+		width: 480px;
 	}
 }
 
 @media only screen and (max-width: 520px) {
 	.contact-center {
-		transform: scale(0.75);
-		margin-right: 1em;
-		margin-left: -1em;
+		width: 410px;
+	}
+	.form-input, .form-textarea { 
+		width: 320px;
+	}
+	.contact-center-title h2 {
+		font-size: 1.7em;
 	}
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 430px) {
 	.contact-center {
-		transform: scale(0.7);
-		margin-right: 1.5em;
-		margin-left: -2.5em;
+		width: 330px;
+	}
+	.form-input, .form-textarea { 
+		width: 250px;
+		font-size: 0.95em;
+	}
+	.contact-center-title h2 {
+		font-size: 1.6em;
+	}
+	.form-submit-button {
+		font-size: 1.1em;
 	}
 }
-
-@media only screen and (max-width: 455px) {
-	.contact-center {
-		transform: scale(0.68);
-		margin-right: 1.5em;
-		margin-left: -4em;
-	}
-}
-
-@media only screen and (max-width: 420px) {
-	.contact-center {
-		transform: scale(0.67);
-		margin-right: 1.5em;
-		margin-left: -4.5em;
-	}
-}
-
-@media only screen and (max-width: 405px) {
-	.contact-center {
-		transform: scale(0.65);
-		margin-right: 1.5em;
-		margin-left: -5em;
-	}
-}
-
-@media only screen and (max-width: 395px) {
-	.contact-center {
-		transform: scale(0.62);
-		margin-right: 1.5em;
-		margin-left: -5.5em;
-	}
-}
-
-@media only screen and (max-width: 378px) {
-	.contact-center {
-		transform: scale(0.6);
-		margin-right: 1.5em;
-		margin-left: -6em;
-	}
-}
-
-@media only screen and (max-width: 365px) {
-	.contact-center {
-		transform: scale(0.58);
-		margin-right: 1.5em;
-		margin-left: -6.5em;
-	}
-}
-
 
 @media only screen and (max-width: 350px) {
 	.contact-center {
-		transform: scale(0.55);
-		margin-right: 1.5em;
-		margin-left: -7em;
+		width: 270px;
+	}
+	.form-input, .form-textarea { 
+		width: 180px;
+		font-size: 0.9em;
+	}
+	.contact-center-title h2 {
+		font-size: 1.45em;
+	}
+	.form-submit-button {
+		font-size: 1em;
 	}
 }
 
-@media only screen and (max-width: 335px) {
+@media only screen and (max-width: 290px) {
 	.contact-center {
-		transform: scale(0.52);
-		margin-right: 1.5em;
-		margin-left: -7.8em;
+		width: 240px;
+	}
+	.form-input, .form-textarea { 
+		width: 160px;
+		font-size: 0.85em;
+	}
+	.contact-center-title h2 {
+		font-size: 1.3em;
+	}
+	.form-submit-button {
+		font-size: 0.95em;
+	}
+	.star-icon {
+		transform: scale(0.85);
 	}
 }
 
-@media only screen and (max-width: 315px) {
+@media only screen and (max-width: 260px) {
 	.contact-center {
-		transform: scale(0.5);
-		margin-right: 1.5em;
-		margin-left: -8em;
+		width: 210px;
+	}
+	.form-input, .form-textarea { 
+		width: 140px;
+		font-size: 0.8em;
+	}
+	.contact-center-title h2 {
+		font-size: 1.1em;
+	}
+	.form-submit-button {
+		font-size: 0.9em;
+	}
+	.star-icon {
+		transform: scale(0.7);
 	}
 }
 
-@media only screen and (max-width: 305px) {
+@media only screen and (max-width: 230px) {
 	.contact-center {
-		transform: scale(0.48);
-		margin-right: 1.5em;
-		margin-left: -8.2em;
+		width: 190px;
+	}
+	.form-input, .form-textarea { 
+		width: 120px;
+		font-size: 0.7em;
+	}
+	.contact-center-title h2 {
+		font-size: 0.92em;
+	}
+	.form-submit-button {
+		font-size: 0.8em;
+	}
+	.star-icon {
+		transform: scale(0.62);
 	}
 }
-
-@media only screen and (max-width: 295px) {
-	.contact-center {
-		transform: scale(0.45);
-		margin-right: 1.5em;
-		margin-left: -8.75em;
-	}
-}
-
-@media only screen and (max-width: 275px) {
-	.contact-center {
-		transform: scale(0.43);
-		margin-right: 1.5em;
-		margin-left: -9.1em;
-	}
-}
-
-@media only screen and (max-width: 265px) {
-	.contact-center {
-		transform: scale(0.4);
-		margin-right: 1.5em;
-		margin-left: -9.5em;
-	}
-}
-
-@media only screen and (max-width: 250px) {
-	.contact-center {
-		transform: scale(0.38);
-		margin-right: 1.5em;
-		margin-left: -10em;
-	}
-}
-
-@media only screen and (max-width: 238px) {
-	.contact-center {
-		transform: scale(0.35);
-		margin-right: 1.5em;
-		margin-left: -10.3em;
-	}
-}
-
-@media only screen and (max-width: 225px) {
-	.contact-center {
-		transform: scale(0.33);
-		margin-right: 1.5em;
-		margin-left: -10.8em;
-	}
-}
-
-@media only screen and (max-width: 210px) {
-	.contact-center {
-		transform: scale(0.325);
-		margin-right: 1.5em;
-		margin-left: -11em;
-	}
-}
-
 
 
 
