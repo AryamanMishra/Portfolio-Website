@@ -257,3 +257,220 @@
     width: 100%;
     margin-top: 2.5em;
 }
+
+
+@media only screen and (max-width:985px){
+    .leetcode-stats-div,.gfg-stats-div{
+        width: 850px;
+    }
+}
+
+@media only screen and (max-width:885px){
+    .leetcode-stats-div,.gfg-stats-div {
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width:780px){
+    .leetcode-stats-div,.gfg-stats-div {
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .leetcode-stats-div,.gfg-stats-div {
+        width: 550px;
+    }
+    .piechart-content {
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .leetcode-stats-div,.gfg-stats-div {
+        width: 450px;
+    }
+    .piechart-content {
+        height: 140px;
+    }
+    .single-leetcode-content-item p,.single-gfg-content-item p {
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .leetcode-stats-div, .gfg-stats-div {
+        width: 350px;
+    }
+    .piechart-content {
+        height: 110px;
+        margin-bottom: 30px
+    }
+    .single-leetcode-content-item p, .single-gfg-content-item p {
+        font-size: 1em;
+    }
+    .leetcode-stats-title h2, .gfg-stats-title h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .leetcode-stats-div, .gfg-stats-div {
+        width: 270px;
+    }
+    .piechart-content {
+        height:100px;
+        margin-bottom: 30px
+    }
+    .single-leetcode-content-item p, .single-gfg-content-item p {
+        font-size: 0.85em;
+    }
+    .all-leetcode-stats-content, .all-gfg-stats-content {
+        margin-right: 30px;
+    }
+    .leetcode-stats-title h2, .gfg-stats-title h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width:290px){
+    .leetcode-stats-div, .gfg-stats-div {
+        width: 220px;
+    }
+    .piechart-content {
+        height:90px;
+        margin-bottom: 30px
+    }
+    .single-leetcode-content-item p, .single-gfg-content-item {
+        font-size: 0.8em;
+    }
+    .all-leetcode-stats-content, .all-gfg-stats-content {
+        margin-right: 40px;
+    }
+    .leetcode-stats-title h2, .gfg-stats-title h2 {
+        font-size: 1.15em;
+    }
+}
+
+
+/* //// */
+
+@media only screen and (max-width:1180px) {
+    .ach-content-div,.cert-content-div {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width:1030px) {
+    .ach-content-div,.cert-content-div {
+        width: 900px;
+    }
+    .ach-content-div p, .cert-content-div p {
+        font-size: 1.05em;
+    }
+}
+
+@media only screen and (max-width:930px) {
+    .ach-content-div, .cert-content-div {
+        width: 800px;
+    }
+    .ach-content-div p, .cert-content-div p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width:830px) {
+    .ach-content-div, .cert-content-div {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width:730px) {
+    .ach-content-div, .cert-content-div {
+        width: 600px;
+    }
+    .ach-content-div p, .cert-content-div p {
+        font-size: 0.95em;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .ach-content-div, .cert-content-div {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .ach-content-div, .cert-content-div {
+        width: 400px;
+    }
+    .ach-content-div p, .cert-content-div p {
+        font-size: 0.91em;
+    }
+    .ach-center-title h2, .cert-center-title h2 {
+        font-size: 1.35em;
+    }
+    .ach-underline, .cert-underline {
+        width: 12em;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .ach-content-div, .cert-content-div {
+        width: 300px;
+    }
+    .ach-content-div p, .cert-content-div p {
+        font-size: 0.88em;
+    }
+    .ach-center-title h2, .cert-center-title h2 {
+        font-size: 1.20em;
+    }
+    .ach-underline, .cert-underline {
+        width: 11em;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .ach-content-div, .cert-content-div {
+        width: 250px;
+    }
+    .ach-content-div p, .cert-content-div p {
+        font-size: 0.87em;
+    }
+    .ach-center-title h2, .cert-center-title h2 {
+        font-size: 1.05em;
+    }
+    .ach-underline, .cert-underline {
+        width: 9.5em;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    .ach-content-div, .cert-content-div {
+        width: 220px;
+    }
+    .ach-content-div p , .cert-content-div p{
+        font-size: 0.85em;
+    }
+    .ach-center-title h2, .cert-center-title h2 {
+        font-size: 0.9em;
+    }
+    .ach-underline, .cert-underline {
+        width: 8.5em;
+    }
+}
+
+@media only screen and (max-width:240px) {
+    .ach-content-div, .cert-content-div {
+        width: 190px;
+    }
+    .ach-content-div p, .cert-content-div p {
+        font-size: 0.75em;
+    }
+    .ach-center-title h2, .cert-center-title h2 {
+        font-size: 0.75em;
+    }
+    .ach-underline, .cert-underline {
+        width: 7em;
+    }
+}

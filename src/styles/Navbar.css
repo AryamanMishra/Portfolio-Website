@@ -50,8 +50,8 @@
 
 .nav-links:hover {
     color: rgb(28, 121, 184);
-    transform: scale(1.05);
-    transition: all 0.3s ease;   
+    transform: scale(1.02);
+    transition: all 0.45s ease;   
 }
 
 .nav-links::after {

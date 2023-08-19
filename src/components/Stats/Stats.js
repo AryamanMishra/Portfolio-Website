@@ -26,9 +26,11 @@ const Stats = ()=> {
         }
     }
 
-    useEffect(()=> {
-        fetchData()
-    },[])
+    // useEffect(()=> {
+    //     fetchData()
+    // },[])
+
+    
     return (
         <div className="main-stats">
             <div className="stats-center">
@@ -46,7 +48,7 @@ const Stats = ()=> {
                         <h2>LeetCode</h2>
                         <a target='_blank' rel='noreferrer'href="https://leetcode.com/modest_aryaman09/" style={{marginLeft:"-1.75em",marginTop:'0.5em',cursor:'pointer'}}>
                             <BiLinkExternal 
-                                size={23}
+                                size={22}
                                 color='rgb(1, 91, 91)'
                             />
                         </a>   
@@ -64,7 +66,7 @@ const Stats = ()=> {
                         <h2>Geeks For Geeks</h2>
                         <a target='_blank' rel='noreferrer' href="https://auth.geeksforgeeks.org/user/modest_aryaman09/practice" style={{marginLeft:"-1.75em",marginTop:'0.5em',cursor:'pointer'}}>
                             <BiLinkExternal 
-                                size={23}
+                                size={22}
                                 color='rgb(1, 91, 91)'
                             />
                         </a>   

@@ -21,7 +21,7 @@ const LeetCodeStats = ({leetStats})=> {
         datasets: [
           {
             label: '# of Questions',
-            data: [easySolved,mediumSolved,hardSolved],
+            data: [20,25,5],
             backgroundColor: [
                 "green",
                 "orange",
