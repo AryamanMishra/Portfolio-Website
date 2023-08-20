@@ -34,9 +34,9 @@ const Projects = ()=> {
 
     return (
         <div className="main-projects">
-            <div className='title'>
+            <div className='project-title'>
                 <h1>Personal Projects</h1>
-                <div className='underline'></div>
+                <div className='project-underline'></div>
 			</div>
             
             
