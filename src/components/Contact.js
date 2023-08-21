@@ -15,7 +15,10 @@ const Contact = ()=> {
 						className='star-icon'
 					/>
 				</div>
-				
+				<div className="mail-contact">
+					<p>Or reach out at : </p>  
+					<a target='_blank' rel='noreferrer' href="mailto:aryaman.m09@gmail.com">aryaman.m09@gmail.com</a>
+				</div>
 				<div className="form-inputs">
 					<input type="text" className='form-input' placeholder='NAME'/>
 					<input type="text" className='form-input' placeholder='MAIL'/>

@@ -92,7 +92,19 @@
 	color: #fafa0e;
 }
 
-
+.mail-contact {
+	margin-bottom: -1em;
+	margin-top: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.05em;
+}
+.mail-contact a{
+	margin-left: 0.5em;
+	text-decoration: none;
+}
 
 /* resp  below */
 
@@ -112,6 +124,9 @@
 	.contact-center-title h2 {
 		font-size: 1.7em;
 	}
+	.mail-contact {
+		font-size: 0.92em;
+	}
 }
 
 @media only screen and (max-width: 430px) {
@@ -127,6 +142,10 @@
 	}
 	.form-submit-button {
 		font-size: 1.1em;
+	}
+	.mail-contact {
+		flex-direction: column;
+		font-size: 0.85em;
 	}
 }
 
@@ -163,6 +182,10 @@
 	.star-icon {
 		transform: scale(0.85);
 	}
+	.mail-contact {
+		flex-direction: column;
+		font-size: 0.8em;
+	}
 }
 
 @media only screen and (max-width: 260px) {
@@ -181,6 +204,10 @@
 	}
 	.star-icon {
 		transform: scale(0.7);
+	}
+	.mail-contact {
+		flex-direction: column;
+		font-size: 0.75em;
 	}
 }
 
