@@ -6,26 +6,12 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import {RxCross1} from 'react-icons/rx'
 
 
-const getLocalStorage = ()=> {
-	let screenIndex = localStorage.getItem('screenIndex')
-	if (screenIndex) {
-		return JSON.parse(localStorage.getItem('screenIndex'))
-	}
-	else {
-		return -1
-	}
-}
-
 
 const Navbar = ()=> {
-    const [screenIndex,setScreenIndex] = useState(getLocalStorage())
+    const [screenIndex,setScreenIndex] = useState(-1)
     const [showNav,setShowNav] = useState(false)
     const navContainerRef = useRef(null)
 	const navRef = useRef(null)
-
-    useEffect(()=> {
-        localStorage.setItem('screenIndex', screenIndex)
-    },[screenIndex])
 
 
     useEffect(()=> {
