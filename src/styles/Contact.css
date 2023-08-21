@@ -52,7 +52,7 @@
 	width: 400px;
 	border: 0.2px solid grey;
 	height: 2em;
-	border-radius: 5px;
+	border-radius: 4px;
 	padding: 0.5em 0.75em;
 	font-family: 'Ruda', sans-serif;
 	font-size: 1.1em;
@@ -63,7 +63,7 @@
 	width: 400px;
 	border: 0.5px solid grey;
 	height: 120px;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 0.5em 0.75em;
 	font-family: 'Ruda', sans-serif;
 	font-size: 1.1em;
@@ -105,6 +105,17 @@
 	margin-left: 0.5em;
 	text-decoration: none;
 }
+
+.custom-title-class {
+	color: rgba(3, 3, 58, 0.868);
+	font-size: 1.45em;
+	font-family: 'Poppins', sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 1.2px;
+	margin-bottom: 0.5em;
+}
+
+
 
 /* resp  below */
 
