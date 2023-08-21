@@ -710,13 +710,13 @@
 @media only screen and (max-width:275px) {
     .main-about-content-skills {
         grid-template-columns: 40px 0px ;
-        column-gap: 78px;
+        column-gap: 70px;
         align-items: center;
         justify-content: center;
         margin-right: -130px;
     }
     .about-skill {
-        width: 105px;
+        width: 100px;
     }
     .about-skill p { 
         font-size: 0.6em;
@@ -725,7 +725,7 @@
         width: 80%;
     }
     .single-education {
-        width: 165px;
+        width: 150px;
     }
     .education-name-div h2{
         font-size: 0.8em;

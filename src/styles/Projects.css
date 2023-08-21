@@ -12,25 +12,23 @@
 
 
 .project-title {
-	display: flex;
-    align-items: center;
-    justify-content: center;
+	font-family: 'Poppins', sans-serif; 
+    font-size: 1.4em;
+    letter-spacing: 2.5px;
+    color: rgb(3, 3, 79);
+    text-align: center;
+    margin-top: 3em;
+    display: flex;
     flex-direction: column;
-    margin-top: 4em;
-    gap: 0.75em;
-	min-width: 450px;
+    align-items: center;
+    margin-bottom: 1em;
+	gap: 0.5em;
 }
 
-.project-title h1 {
-	font-family: 'Poppins', sans-serif;
-	letter-spacing: 2px;
-	color: rgb(3, 3, 79);
-	font-size: 2.2rem;
-}
 
 .project-underline {
 	height: 0.25rem;
-	width: 25rem;
+	width: 22rem;
 	background-color: rgb(84, 147, 209);
 }
 
@@ -68,9 +66,6 @@
 }
 
 
-.center-projects {
-	margin-top: 2em;
-}
 
 .personal-projects-center {
 	display: grid;
@@ -233,14 +228,14 @@
 		column-gap: 80px;
 		row-gap: 150px;
 	}
-	.project-title h1 {
-		font-size: 2em;
+	.project-title h2 {
+		font-size: 1.35em;
 	}
 	.project-title {
 		margin-left: 1em;
 	}
 	.project-underline {
-		width: 20em;
+		width: 15em;
 	}
 }
 
@@ -250,11 +245,11 @@
 		column-gap: 60px;
 		row-gap: 150px;
 	}
-	.project-title h1 {
-		font-size: 1.9em;
+	.project-title h2 {
+		font-size: 1.35em;
 	}
 	.project-underline {
-		width: 19em;
+		width: 15em;
 	}
 }
 
@@ -265,11 +260,11 @@
 		row-gap: 150px;
 		margin-top: -2em;
 	}
-	.project-title h1 {
-		font-size: 1.85em;
+	.project-title h2 {
+		font-size: 1.3em;
 	}
 	.project-underline {
-		width: 19em;
+		width: 15em;
 	}
 }
 
@@ -280,15 +275,15 @@
 		row-gap: 150px;
 		margin-top: -2em;
 	}
-	.project-title h1 {
-		font-size: 1.8em;
+	.project-title h2 {
+		font-size: 1.3em;
 	}
 	.project-underline {
-		width: 19em;
+		width: 15em;
 	}
 }
 
-@media only screen and (max-width:510px){
+@media only screen and (max-width:515px){
 	.personal-projects-center {
 		margin-left: -2.5em;
 		row-gap: 130px;
@@ -296,15 +291,15 @@
 	.project-card {
 		width: 200px;
 	}
-	.project-title h1 {
-		font-size: 1.8em;
+	.project-title h2 {
+		font-size: 1.3em;
 	}
 	.project-underline {
-		width: 19em;
+		width: 15em;
 	}
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:490px){
 	.personal-projects-center {
 		margin-left: -2.5em;
 		row-gap: 130px;
@@ -313,11 +308,11 @@
 	.project-card {
 		width: 190px;
 	}
-	.project-title h1 {
-		font-size: 1.8em;
+	.project-title h2 {
+		font-size: 1.3em;
 	}
 	.project-underline {
-		width: 18em;
+		width: 15em;
 	}
 }
 
@@ -331,20 +326,20 @@
 		width: 180px;
 		
 	}
-	.project-title h1 {
-		font-size: 1.75em;
+	.project-title h2 {
+		font-size: 1.3em;
 	}
 	.project-title {
 		margin-left: 0.2em;
 	}
 	.project-underline {
-		width: 18em;
+		width: 15em;
 	}
 }
 
 @media only screen and (max-width:440px){
 	.personal-projects-center {
-		margin-left: -2.5em;
+		margin-left: -3em;
 		row-gap: 120px;
 		column-gap: 25px;
 		margin-top: -2em;
@@ -353,45 +348,45 @@
 		width: 180px;
 		
 	}
-	.project-title h1 {
-		font-size: 1.75em;
+	.project-title h2 {
+		font-size: 1.2em;
 	}
 	.project-card-front h2 {
 		font-size: 1em;
 	}
 	.project-title {
-		margin-left: -0.75em;
+		margin-left: 1em;
 	}
 	.project-underline {
-		width: 18em;
+		width: 13em;
 	}
 }
 
-@media only screen and (max-width:440px){
+@media only screen and (max-width:425px){
 	.personal-projects-center {
-		margin-left: -2.5em;
-		row-gap: 110px;
-		column-gap: 25px;
-		margin-bottom: 1em;
+		margin-left: -3em;
+		row-gap: 120px;
+		column-gap: 20px;
 		margin-top: -2em;
 	}
 	.project-card {
-		width: 170px;
-		
+		width: 175px;	
 	}
-	.project-title h1 {
-		font-size: 1.75em;
+	.project-title h2 {
+		font-size: 1.2em;
 	}
 	.project-card-front h2 {
-		font-size: 0.95em;
+		font-size: 1em;
 	}
 	.project-title {
-		margin-left: -1em;
+		margin-left: 1em;
 	}
 	.project-underline {
-		width: 18em;
+		width: 13em;
 	}
 }
+
+
 
 @media only screen and (max-width:405px){
 	.personal-projects-center {
@@ -402,20 +397,19 @@
 		margin-top: -2em;
 	}
 	.project-card {
-		width: 165px;
-		
+		width: 165px;	
 	}
-	.project-title h1 {
-		font-size: 1.7em;
+	.project-title h2 {
+		font-size: 1.2em;
 	}
 	.project-card-front h2 {
 		font-size: 0.95em;
 	}
 	.project-title {
-		margin-left: -1.5em;
+		margin-left: 0.85em;
 	}
 	.project-underline {
-		width: 18em;
+		width: 12.5em;
 	}
 }
 
@@ -430,23 +424,23 @@
 	.project-card {
 		width: 155px;
 	}
-	.project-title h1 {
-		font-size: 1.65em;
+	.project-title h2 {
+		font-size: 1.2em;
 	}
 	.project-card-front h2 {
 		font-size: 0.95em;
 	}
 	.project-title {
-		margin-left: -1.9em;
+		margin-left: 0.85em;
 	}
 	.project-underline {
-		width: 17em;
+		width: 12.5em;
 	}
 }
 
 @media only screen and (max-width:370px){
 	.personal-projects-center {
-		margin-left: -2.5em;
+		margin-left: -2.75em;
 		row-gap: 100px;
 		column-gap: 20px;
 		margin-bottom: 1em;
@@ -455,17 +449,17 @@
 	.project-card {
 		width: 150px;
 	}
-	.project-title h1 {
-		font-size: 1.6em;
+	.project-title h2 {
+		font-size: 1.2em;
 	}
 	.project-card-front h2 {
 		font-size: 0.95em;
 	}
 	.project-title {
-		margin-left: -2.5em;
+		margin-left: 0.85em;
 	}
 	.project-underline {
-		width: 17em;
+		width: 12.5em;
 	}
 }
 
@@ -477,6 +471,7 @@
 		flex-direction: column;
 		margin-left: 1em;
 		gap: 8em;
+		margin-left: 0.5em;
 	}
 	.project-card {
 		width: 200px;		
@@ -484,14 +479,14 @@
 	.project-card-front h2 {
 		font-size: 1em;
 	}
-	.project-title h1 {
-		font-size: 1.6em;
+	.project-title h2 {
+		font-size: 1.2em;
 	}
 	.project-title {
-		margin-left: -3em;
+		margin-left: 0.85em;
 	}
 	.project-underline {
-		width: 16em;
+		width: 12em;
 	}
 }
 
@@ -510,14 +505,14 @@
 	.project-card-front h2 {
 		font-size: 1em;
 	}
-	.project-title h1 {
-		font-size: 1.4em;
+	.project-title h2 {
+		font-size: 0.95em;
 	}
 	.project-title {
-		margin-left: -5em;
+		margin-left: 0.5em;
 	}
 	.project-underline {
-		width: 14em;
+		width: 10em;
 	}
 }
 
@@ -536,14 +531,14 @@
 	.project-card-front h2 {
 		font-size: 0.95em;
 	}
-	.project-title h1 {
-		font-size: 1.25em;
+	.project-title h2 {
+		font-size: 0.9em;
 	}
 	.project-title {
-		margin-left: -6em;
+		margin-left: 0.5em;
 	}
 	.project-underline {
-		width: 13em;
+		width: 9em;
 	}
 }
 
@@ -562,14 +557,14 @@
 	.project-card-front h2 {
 		font-size: 0.95em;
 	}
-	.project-title h1 {
-		font-size: 1.1em;
+	.project-title h2 {
+		font-size: 0.8em;
 	}
 	.project-title {
-		margin-left: -7em;
+		margin-left: 0.25em;
 	}
 	.project-underline {
-		width: 11em;
+		width: 8.5em;
 	}
 }
 

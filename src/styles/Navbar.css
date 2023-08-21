@@ -10,6 +10,7 @@
     letter-spacing: 1px;
     font-size: 1.05em;
     background: linear-gradient(120deg, rgb(28, 121, 184) 20%, #fff 20%);
+    z-index: 2;
 }
 
 .home-link {

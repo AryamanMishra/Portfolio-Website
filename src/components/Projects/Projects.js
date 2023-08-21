@@ -35,7 +35,7 @@ const Projects = ()=> {
     return (
         <div className="main-projects">
             <div className='project-title'>
-                <h1>Personal Projects</h1>
+                <h2>Personal Projects</h2>
                 <div className='project-underline'></div>
 			</div>
             
