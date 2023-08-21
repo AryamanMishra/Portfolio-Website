@@ -6,8 +6,10 @@ import 'react-loading-skeleton/dist/skeleton.css'
 const Loading = ()=> {
     return (
         <div className="leetcode-stats-loading-div">
-            <Skeleton circle={true} width= '170px' height= '170px' style={{marginLeft:'41%',marginTop:'15px',marginBottom:'15px'}}/>
-            <Skeleton count={3} style={{marginTop:'8px',marginBottom:'8px'}}/>
+            <Skeleton className='loading-circle' circle={true} height= '160px' width='160px'/>
+            <div className="line-skeleton-outer-div">
+                <Skeleton className='loading-lines' height='15px' count={3}/>
+            </div>
         </div>
     )
 }

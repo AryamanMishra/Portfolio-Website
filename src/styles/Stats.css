@@ -39,6 +39,13 @@
     margin-top: 2.5em;
 }
 
+.leetcode-stats-content-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
 
 .leetcode-stats-title {
     display: flex;
@@ -86,9 +93,6 @@
     margin-bottom: 1em;
 }
 
-.leetcode-stats-loading-div {
-   margin: 1em 2em;
-}
 
 .gfg-stats-div {
     border: 1px solid transparent;
@@ -249,15 +253,32 @@
     letter-spacing: 0.65px;
 }
 
-.piechart-content {
+.leetcode-stats-loading-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    margin-left: auto;
-    width: 100%;
+    flex-direction: column;
+    margin: 1em 2em;
+ }
+.piechart-content { 
+    align-self: center;
     margin-top: 2.5em;
 }
+
+.loading-circle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.line-skeleton-outer-div {
+    width: 800px;
+}
+
+.loading-lines {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 
 @media only screen and (max-width:985px){
@@ -270,11 +291,17 @@
     .leetcode-stats-div,.gfg-stats-div {
         width: 750px;
     }
+    .line-skeleton-outer-div {
+        width: 700px;
+    }
 }
 
 @media only screen and (max-width:780px){
     .leetcode-stats-div,.gfg-stats-div {
         width: 650px;
+    }
+    .line-skeleton-outer-div {
+        width: 600px;
     }
 }
 
@@ -283,7 +310,10 @@
         width: 550px;
     }
     .piechart-content {
-        height: 170px;
+        transform: scale(0.95);
+    }
+    .line-skeleton-outer-div {
+        width: 500px;
     }
 }
 
@@ -292,10 +322,13 @@
         width: 450px;
     }
     .piechart-content {
-        height: 140px;
+        transform: scale(0.9);
     }
     .single-leetcode-content-item p,.single-gfg-content-item p {
         font-size: 1.1em;
+    }
+    .line-skeleton-outer-div {
+        width: 400px;
     }
 }
 
@@ -304,14 +337,16 @@
         width: 350px;
     }
     .piechart-content {
-        height: 110px;
-        margin-bottom: 30px
+        transform: scale(0.85);
     }
     .single-leetcode-content-item p, .single-gfg-content-item p {
         font-size: 1em;
     }
     .leetcode-stats-title h2, .gfg-stats-title h2 {
         font-size: 1.4em;
+    }
+    .line-skeleton-outer-div {
+        width: 300px;
     }
 }
 
@@ -320,8 +355,7 @@
         width: 270px;
     }
     .piechart-content {
-        height:100px;
-        margin-bottom: 30px
+        transform: scale(0.8);
     }
     .single-leetcode-content-item p, .single-gfg-content-item p {
         font-size: 0.85em;
@@ -330,7 +364,10 @@
         margin-right: 30px;
     }
     .leetcode-stats-title h2, .gfg-stats-title h2 {
-        font-size: 1.2em;
+        font-size: 1.3em;
+    }
+    .line-skeleton-outer-div {
+        width: 200px;
     }
 }
 
@@ -339,8 +376,7 @@
         width: 220px;
     }
     .piechart-content {
-        height:90px;
-        margin-bottom: 30px
+        transform: scale(0.7);
     }
     .single-leetcode-content-item p, .single-gfg-content-item {
         font-size: 0.8em;

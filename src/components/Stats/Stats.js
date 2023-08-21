@@ -6,8 +6,14 @@ import { AiFillStar } from 'react-icons/ai';
 import {BiLinkExternal} from 'react-icons/bi'
 import { MdAdsClick } from 'react-icons/md';
 
+
 const URL = "https://leetcode-stats-api.herokuapp.com/modest_aryaman09"
+
+
+
+
 const Stats = ()=> {
+
 
     const [isLoading,setIsLoading] = useState(false);
     const [leetStats,setLeetStats] = useState({})
@@ -54,6 +60,7 @@ const Stats = ()=> {
                         </a>   
                     </div>
                     {  isLoading ? <Loading /> : <LeetCodeStats leetStats={leetStats}/>}
+                    {/* <Loading /> */}
                 </div>
                 
                 <div className="gfg-stats-div">
