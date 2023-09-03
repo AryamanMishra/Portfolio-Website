@@ -21,8 +21,8 @@
     margin-bottom: 1em;
 }
 
-.about-underline {
-    width: 11em;
+.about-underline , .education-underline {
+    width: 10em;
     height: 0.25em;
 	background-color: rgb(84, 147, 209);
 }
@@ -91,12 +91,14 @@
 
 .education-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.7em;
+    font-size: 1.55em;
     letter-spacing: 2px;
     color: rgb(3, 3, 79);
     text-align: center;
 }
-
+.education-title h2 {
+    padding-bottom: 0.2em;
+}
 .center-education {
     margin-top: 5em;
     display: flex;
@@ -212,7 +214,7 @@
     .main-about-content-title h2 {
         font-size: 2.2em;
     }
-    .about-underline {
+    .about-underline, .education-underline {
         width: 13em;
     }
     .main-about-content {
@@ -250,6 +252,9 @@
 @media only screen and (max-width:1100px) {
     .main-about-content-skills {
         grid-template-columns: 100px 100px 
+    }
+    .education-underline {
+        width: 10em;
     }
 }
 
@@ -399,7 +404,7 @@
     .main-about-content-title h2{
         font-size: 1.8em;
     }
-    .about-underline {
+    .about-underline, .education-underline {
         width: 10em;
     }
     .single-education {
@@ -480,7 +485,7 @@
     .main-about-content-title h2{
         font-size: 1.7em;
     }
-    .about-underline {
+    .about-underline, .education-underline {
         width: 9em;
     }
     .hero-img-about { 
@@ -570,7 +575,7 @@
     .main-about-content-title h2{
         font-size: 1.6em;
     }
-    .about-underline {
+    .about-underline, .education-underline {
         width: 8.5em;
     }
     .hero-img-about { 
@@ -696,7 +701,7 @@
     .main-about-content-title h2{
         font-size: 1.45em;
     }
-    .about-underline {
+    .about-underline, .education-underline {
         width: 8em;
     }
     .edu-button-section {

@@ -171,7 +171,11 @@
     align-items: center;
     gap: 1em;
     justify-content: center;
-    margin-bottom: 0.15em;
+    padding-bottom: 1em;
+}
+
+.exp-name-div h2 {
+    font-size: 1.65em;
 }
 
 
@@ -270,23 +274,29 @@
     .single-experience p {
         font-size: 1.05em;
     }
+    .exp-name-div h2 {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .intro-title h1 {
         font-size: 1.75em;
     }
+    .exp-name-div h2 {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (max-width: 950px) {
     .single-experience {
-        width: 720px;
+        width: 740px;
     }
     .single-experience h2 {
         font-size: 1.3em;
     }
     .single-experience p {
-        font-size: 1em;
+        font-size: 1.05em;
     }
     .intro-title h1 {
         font-size: 1.65em;
@@ -300,18 +310,21 @@
     .exp-underline {
         width: 10em;
     }
+    .exp-name-div h2 {
+        font-size: 1.5em;
+    }
 }
 
 
 @media only screen and (max-width: 830px) {
     .single-experience {
-        width: 630px;
+        width: 660px;
     }
     .single-experience h2 {
         font-size: 1.2em;
     }
     .single-experience p {
-        font-size: 1em;
+        font-size: 1.02em;
     }
     .intro-title h1 {
         font-size: 1.55em;
@@ -325,11 +338,14 @@
     .exp-underline {
         width: 9em;
     }
+    .exp-name-div h2 {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (max-width: 750px) {
     .single-experience {
-        width: 550px;
+        width: 600px;
     }
     .single-experience h2 {
         font-size: 1.25em;
@@ -340,11 +356,14 @@
     .exp-title-div h4 {
         font-size: 0.9em
     }
+    .exp-name-div h2 {
+        font-size: 1.4em;
+    }
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 670px) {
     .single-experience {
-        width: 500px;
+        width: 530px;
     }
     .single-experience h2 {
         font-size: 1.25em;
@@ -359,11 +378,18 @@
     .exp-title-div h4 {
         font-size: 0.9em
     }
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 1em;
+    }
+    .exp-name-div h2 {
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (max-width: 620px) {
     .single-experience {
-        width: 450px;
+        width: 480px;
     }
     .single-experience h2 {
         font-size: 1.2em;
@@ -378,9 +404,16 @@
     .exp-title-div h4 {
         font-size: 0.85em
     }
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 1em;
+    }
+    .exp-name-div h2 {
+        font-size: 1.25em;
+    }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 550px) {
     .single-experience {
         width: 390px;
     }
@@ -406,17 +439,24 @@
     .exp-underline {
         width: 9em;
     }
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 2em;
+    }
+    .exp-name-div h2 {
+        font-size: 1.3em;
+    }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 460px) {
     .single-experience {
-        width: 340px;
+        width: 350px;
     }
     .single-experience h2 {
         font-size: 1.1em;
     }
     .single-experience p {
-        font-size: 0.95em;
+        font-size: 1em;
     }
     .exp-title-div {
         flex-direction: column;
@@ -429,9 +469,23 @@
         flex-direction: column;
         gap: 0.1em;
     }
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 2em;
+    }
+    .exp-name-div h2 {
+        font-size: 1.25em;
+    }
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 1em;
+    }
+    .exp-name-div h2 {
+        font-size: 1.3em;
+    }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 420px) {
     .single-experience {
         width: 300px;
     }
@@ -439,7 +493,7 @@
         font-size: 1em;
     }
     .single-experience p {
-        font-size: 0.9em;
+        font-size: 0.95em;
     }
     .exp-title-div {
         flex-direction: column;
@@ -464,17 +518,24 @@
     .exp-underline {
         width: 8em;
     }
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 1em;
+    }
+    .exp-name-div h2 {
+        font-size: 1.28em;
+    }
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 370px) {
     .single-experience {
-        width: 250px;
+        width: 260px;
     }
     .single-experience h2 {
         font-size: 0.85em;
     }
     .single-experience p {
-        font-size: 0.8em;
+        font-size: 0.87em;
     }
     .exp-title-div {
         flex-direction: column;
@@ -499,9 +560,16 @@
     .exp-underline {
         width: 7em;
     }
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 1em;
+    }
+    .exp-name-div h2 {
+        font-size: 1.2em;
+    }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 330px) {
     .single-experience {
         width: 220px;
     }
@@ -509,7 +577,7 @@
         font-size: 0.85em;
     }
     .single-experience p {
-        font-size: 0.82em;
+        font-size: 0.85em;
     }
     .exp-title-div {
         flex-direction: column;
@@ -537,14 +605,21 @@
     .exp-underline {
         width: 6.5em;
     }
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 1em;
+    }
+    .exp-name-div h2 {
+        font-size: 1.15em;
+    }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 285px) {
     .single-experience {
         width: 200px;
     }
     .single-experience p {
-        font-size: 0.82em;
+        font-size: 0.85em;
     }
     .exp-title-div {
         flex-direction: column;
@@ -566,49 +641,22 @@
     .desc-item p {
         margin-left: -1em;
     }
-}
-
-@media only screen and (max-width: 290px) {
-    .single-experience {
-        width: 180px;
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 1em;
     }
-    .single-experience p {
-        font-size: 0.8em;
-    }
-    .exp-title-div {
-        flex-direction: column;
-        gap: 0.5em;
-    }
-    .exp-title-div h4 {
-        font-size: 0.6em
-    }
-    .exp-name-div {
-        flex-direction: column;
-        gap: 0.1em;
-    }
-    .exp-name-div h2{
-        font-size: 0.9em;
-    }
-    .exp-button-section {
-        transform: scale(0.7);
-    }
-    .desc-item p {
-        margin-left: -1.5em;
-    }
-    .experience-title h2 {
-        font-size: 0.8em;
-    }
-    .exp-underline {
-        width: 6em;
+    .exp-name-div h2 {
+        font-size: 1.1em;
     }
 }
 
-@media only screen and (max-width: 260px) {
+
+@media only screen and (max-width: 265px) {
     .single-experience {
         width: 150px;
     }
     .single-experience p {
-        font-size: 0.7em;
+        font-size: 0.75em;
     }
     .exp-title-div {
         flex-direction: column;
@@ -635,6 +683,13 @@
     }
     .exp-underline {
         width: 5em;
+    }
+    .exp-name-div  {
+        padding-bottom: 0;
+        padding-left: 1em;
+    }
+    .exp-name-div h2 {
+        font-size: 1.05em;
     }
 }
 

@@ -37,7 +37,7 @@ const Education = ()=> {
         <div className="main-education-section">
             <div className="education-title">
                 <h2>Education</h2>
-                <div className='underline' style={{width:'11em'}}></div>
+                <div className='education-underline'></div>
             </div>
             <div className="center-education">
                 <div className="single-education">
